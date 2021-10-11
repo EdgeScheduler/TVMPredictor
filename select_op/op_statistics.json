@@ -1,0 +1,183 @@
+{
+    "origin_data": {
+        "add": {
+            "avg": 0.12178712749999991,
+            "count": 92,
+            "max": 0.30731104,
+            "min": 0.00067177
+        },
+        "concatenate": {
+            "avg": 0.10377852088888884,
+            "count": 90,
+            "max": 0.20026824000000001,
+            "min": 8.779999999999999e-05
+        },
+        "expand_dims": {
+            "avg": 2.1961590909090907e-05,
+            "count": 88,
+            "max": 3.513e-05,
+            "min": 5.6e-07
+        },
+        "multiply": {
+            "avg": 0.10401949644444443,
+            "count": 90,
+            "max": 0.1585577,
+            "min": 0.00047249
+        },
+        "nn.batch_flatten": {
+            "avg": 0.00083298,
+            "count": 2,
+            "max": 0.0016607,
+            "min": 5.26e-06
+        },
+        "nn.batch_norm": {
+            "avg": 0.008908695,
+            "count": 2,
+            "max": 0.01589463,
+            "min": 0.00192276
+        },
+        "nn.bias_add": {
+            "avg": 0.0134075775,
+            "count": 4,
+            "max": 0.040792,
+            "min": 3.27e-05
+        },
+        "nn.conv2d": {
+            "avg": 0.9509347025,
+            "count": 4,
+            "max": 0.9959577799999999,
+            "min": 0.89278538
+        },
+        "nn.dense": {
+            "avg": 0.24335053400000003,
+            "count": 90,
+            "max": 0.76845652,
+            "min": 0.004023479999999999
+        },
+        "nn.global_avg_pool2d": {
+            "avg": 0.002060745,
+            "count": 2,
+            "max": 0.00216024,
+            "min": 0.00196125
+        },
+        "nn.leaky_relu": {
+            "avg": 0.00506207,
+            "count": 2,
+            "max": 0.00891746,
+            "min": 0.00120668
+        },
+        "nn.max_pool2d": {
+            "avg": 0.00484357,
+            "count": 2,
+            "max": 0.006420599999999999,
+            "min": 0.00326654
+        },
+        "nn.relu": {
+            "avg": 0.022051755,
+            "count": 2,
+            "max": 0.03368136,
+            "min": 0.010422149999999998
+        },
+        "nn.upsampling": {
+            "avg": 0.00023971,
+            "count": 2,
+            "max": 0.00045522,
+            "min": 2.42e-05
+        },
+        "reshape": {
+            "avg": 8.5e-08,
+            "count": 2,
+            "max": 1.5e-07,
+            "min": 2e-08
+        },
+        "sigmoid": {
+            "avg": 0.10940357577777776,
+            "count": 90,
+            "max": 0.16705008,
+            "min": 4.637e-05
+        },
+        "split": {
+            "avg": 0.19286061333333337,
+            "count": 90,
+            "max": 0.38285761,
+            "min": 4.989999999999999e-05
+        },
+        "squeeze": {
+            "avg": 9.134568181818178e-05,
+            "count": 88,
+            "max": 0.00019094,
+            "min": 1.057e-05
+        },
+        "stack": {
+            "avg": 0.007820075909090911,
+            "count": 88,
+            "max": 0.011832990000000002,
+            "min": 0.00032605000000000004
+        },
+        "strided_slice": {
+            "avg": 0.013384779659090908,
+            "count": 88,
+            "max": 0.02168301,
+            "min": 0.00041516
+        },
+        "subtract": {
+            "avg": 0.041856503,
+            "count": 10,
+            "max": 0.0507711,
+            "min": 0.026886459999999997
+        },
+        "tanh": {
+            "avg": 0.07656583136363636,
+            "count": 88,
+            "max": 0.14503601,
+            "min": 0.019072739999999998
+        },
+        "tuple": {
+            "avg": 0.00011902966666666662,
+            "count": 90,
+            "max": 0.00019293,
+            "min": 3.0000000000000004e-08
+        }
+    },
+    "selected": {
+        "count": 8,
+        "list": [
+            "split",
+            "concatenate",
+            "nn.dense",
+            "add",
+            "sigmoid",
+            "tanh",
+            "multiply",
+            "nn.conv2d"
+        ]
+    },
+    "total": {
+        "count": 23,
+        "list": [
+            "split",
+            "strided_slice",
+            "squeeze",
+            "tuple",
+            "concatenate",
+            "nn.dense",
+            "add",
+            "sigmoid",
+            "tanh",
+            "multiply",
+            "expand_dims",
+            "stack",
+            "subtract",
+            "nn.conv2d",
+            "nn.batch_norm",
+            "nn.leaky_relu",
+            "nn.upsampling",
+            "nn.bias_add",
+            "reshape",
+            "nn.relu",
+            "nn.max_pool2d",
+            "nn.global_avg_pool2d",
+            "nn.batch_flatten"
+        ]
+    }
+}

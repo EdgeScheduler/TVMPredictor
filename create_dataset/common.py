@@ -351,6 +351,7 @@ def fix_json_config(log_file="create_dataset/datasets/dataset.json") ->None:
     delete un-exist dataset-items from json config
     '''
 
+    # 去除json中有记录，但是实际上被删除的条目
     log_dict = {}
     if os.path.exists(log_file):
         with open(log_file,'r') as f:

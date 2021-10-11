@@ -33,16 +33,16 @@ device_name="dell04"
 show_print=True
 # log_file默认值.
 
-# # 研究二维乘法
-# count2 = 7
+# 研究二维乘法
+count2 = 7
 
-# force_shape_relation2=(None,(lambda x,y:x, lambda x,y:y))
-# shapes_dimensionality2=((2,2),(0,0))
-# range_min2 = ((-1,1),(1,1))
-# range_max2 = ((-1,100),(100,100))
-# device_parame_array2 = [Device.device_params_CPU,Device.device_params_GPU0]
+force_shape_relation2=(None,(lambda x,y:x, lambda x,y:y))
+shapes_dimensionality2=((2,2),(0,0))
+range_min2 = ((-1,1),(1,1))
+range_max2 = ((-1,100),(100,100))
+device_parame_array2 = [Device.device_params_CPU,Device.device_params_GPU0]
 
-# generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array2,count=count2,shape_dimensionality=shapes_dimensionality2,range_min=range_min2,range_max=range_max2,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation2,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array2,count=count2,shape_dimensionality=shapes_dimensionality2,range_min=range_min2,range_max=range_max2,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation2,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print)
 
 # 研究三维乘法
 count3 = 7

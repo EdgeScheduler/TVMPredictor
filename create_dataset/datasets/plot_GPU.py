@@ -53,15 +53,18 @@ for i in range(len(model_list)):
             myplot(data=datas_2[0],color=mycolor(i+1),label_type="size")
             img_sum.set_title("GPU summay-"+device_list[j]+": "+model_list[i])
 
-        # if datas_1 and datas_2:
-            # # 加速比
-            # speedup_datas=data_div(datas_1[0],datas_2[0])
-            # img = plt.subplot(len(device_list)+1,len(model_list)+1, i+1+(len(device_list)-1)*(len(model_list)+1))
-            # myplot(data=speedup_datas,color=mycolor(i+1),label_type="shape")
-            # img.set_title("GPU-"+device_list[0]+"/"+device_list[1]+": "+model_list[i])
+        if datas_1 and datas_2:
+            # 加速比
+            speedup_datas=data_div(datas_1[0],datas_2[0])
 
-            # img_sum = plt.subplot(len(device_list)+1,len(model_list)+1, len(device_list)*(len(model_list)+1))
-            # myplot(data=speedup_datas,color=mycolor(i+1),label_type="size")
-            # img_sum.set_title("GPU summay-"+device_list[0]+"/"+device_list[1]+": "+model_list[i])
+            print(speedup_datas)
+
+            img = plt.subplot(len(device_list)+1,len(model_list)+1, i+1+(len(device_list))*(len(model_list)+1))
+            myplot(data=speedup_datas[0],color=mycolor(i+1),label_type="shape")
+            img.set_title("GPU-"+device_list[0]+"/"+device_list[1]+": "+model_list[i])
+
+            img_sum = plt.subplot(len(device_list)+1,len(model_list)+1, (len(device_list)+1)*(len(model_list)+1))
+            myplot(data=speedup_datas[0],color=mycolor(i+1),label_type="size")
+            img_sum.set_title("GPU summay-"+device_list[0]+"/"+device_list[1]+": "+model_list[i])
 
 plt.show()
