@@ -50,7 +50,7 @@ save_json["selected"]["list"] = list(select_op(datas,op_filter).keys())
 
 save_json["origin_data"]=datas
 
-with open(os.path.join(base_dir,"op_statistics.json"),"w") as f:
+with open(os.path.join(base_dir,"../op_statistics.json"),"w") as f:
         json.dump(save_json,fp=f,indent=4,separators=(',', ': '),sort_keys=True)
 
 print("--totoal:")
