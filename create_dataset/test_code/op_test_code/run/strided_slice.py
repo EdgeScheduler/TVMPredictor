@@ -26,7 +26,7 @@ def calculate_op(dshape,dtype="float32"):
     return f
 
 # 定义参数
-function_dict = {"func":calculate_op, "name": "add"}
+function_dict = {"func":calculate_op, "name": "strided_slice"}
 
 # 限定shape
 count = 7
