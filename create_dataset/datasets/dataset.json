@@ -1,5 +1,518 @@
 {
-    "count": 70,
+    "count": 140,
+    "dell04": {
+        "add": {
+            "0": {
+                "((3, 3), (0, 0))": {
+                    "((-1, 27, 74), (-1, 27, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 27, 74), (-1, 27, 1)).txt",
+                        "shapes": "((-1, 27, 74), (-1, 27, 1))",
+                        "time": "2021-10-12 07:12:20"
+                    },
+                    "((-1, 39, 55), (-1, 39, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 39, 55), (-1, 39, 1)).txt",
+                        "shapes": "((-1, 39, 55), (-1, 39, 1))",
+                        "time": "2021-10-12 07:07:30"
+                    },
+                    "((-1, 40, 58), (-1, 40, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 40, 58), (-1, 40, 1)).txt",
+                        "shapes": "((-1, 40, 58), (-1, 40, 1))",
+                        "time": "2021-10-12 07:14:43"
+                    },
+                    "((-1, 41, 15), (-1, 41, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 41, 15), (-1, 41, 1)).txt",
+                        "shapes": "((-1, 41, 15), (-1, 41, 1))",
+                        "time": "2021-10-12 07:05:05"
+                    },
+                    "((-1, 70, 75), (-1, 70, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 70, 75), (-1, 70, 1)).txt",
+                        "shapes": "((-1, 70, 75), (-1, 70, 1))",
+                        "time": "2021-10-12 07:09:56"
+                    },
+                    "((-1, 90, 83), (-1, 90, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 90, 83), (-1, 90, 1)).txt",
+                        "shapes": "((-1, 90, 83), (-1, 90, 1))",
+                        "time": "2021-10-12 07:17:10"
+                    },
+                    "((-1, 99, 28), (-1, 99, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/add/0/((3, 3), (0, 0))/((-1, 99, 28), (-1, 99, 1)).txt",
+                        "shapes": "((-1, 99, 28), (-1, 99, 1))",
+                        "time": "2021-10-12 07:02:56"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "count": 70,
+        "multiply": {
+            "0": {
+                "((3, 3), (0, 0))": {
+                    "((-1, 14, 82), (-1, 14, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 14, 82), (-1, 14, 1)).txt",
+                        "shapes": "((-1, 14, 82), (-1, 14, 1))",
+                        "time": "2021-10-12 07:30:51"
+                    },
+                    "((-1, 28, 6), (-1, 28, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 28, 6), (-1, 28, 1)).txt",
+                        "shapes": "((-1, 28, 6), (-1, 28, 1))",
+                        "time": "2021-10-12 07:28:33"
+                    },
+                    "((-1, 36, 23), (-1, 36, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 36, 23), (-1, 36, 1)).txt",
+                        "shapes": "((-1, 36, 23), (-1, 36, 1))",
+                        "time": "2021-10-12 07:33:08"
+                    },
+                    "((-1, 45, 90), (-1, 45, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 45, 90), (-1, 45, 1)).txt",
+                        "shapes": "((-1, 45, 90), (-1, 45, 1))",
+                        "time": "2021-10-12 07:21:51"
+                    },
+                    "((-1, 58, 79), (-1, 58, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 58, 79), (-1, 58, 1)).txt",
+                        "shapes": "((-1, 58, 79), (-1, 58, 1))",
+                        "time": "2021-10-12 07:24:11"
+                    },
+                    "((-1, 59, 17), (-1, 59, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 59, 17), (-1, 59, 1)).txt",
+                        "shapes": "((-1, 59, 17), (-1, 59, 1))",
+                        "time": "2021-10-12 07:19:30"
+                    },
+                    "((-1, 7, 74), (-1, 7, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/multiply/0/((3, 3), (0, 0))/((-1, 7, 74), (-1, 7, 1)).txt",
+                        "shapes": "((-1, 7, 74), (-1, 7, 1))",
+                        "time": "2021-10-12 07:26:21"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "nn.bias_add": {
+            "0": {
+                "((3, 1), (0, 0))": {
+                    "((-1, 10, 45), (10,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 10, 45), (10,)).txt",
+                        "shapes": "((-1, 10, 45), (10,))",
+                        "time": "2021-10-12 07:40:10"
+                    },
+                    "((-1, 32, 92), (32,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 32, 92), (32,)).txt",
+                        "shapes": "((-1, 32, 92), (32,))",
+                        "time": "2021-10-12 07:42:27"
+                    },
+                    "((-1, 46, 8), (46,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 46, 8), (46,)).txt",
+                        "shapes": "((-1, 46, 8), (46,))",
+                        "time": "2021-10-12 07:49:20"
+                    },
+                    "((-1, 63, 50), (63,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 63, 50), (63,)).txt",
+                        "shapes": "((-1, 63, 50), (63,))",
+                        "time": "2021-10-12 07:47:05"
+                    },
+                    "((-1, 66, 68), (66,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 66, 68), (66,)).txt",
+                        "shapes": "((-1, 66, 68), (66,))",
+                        "time": "2021-10-12 07:35:31"
+                    },
+                    "((-1, 68, 49), (68,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 68, 49), (68,)).txt",
+                        "shapes": "((-1, 68, 49), (68,))",
+                        "time": "2021-10-12 07:44:45"
+                    },
+                    "((-1, 92, 22), (92,))": {
+                        "changed_shape": "((3, 1), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.bias_add/0/((3, 1), (0, 0))/((-1, 92, 22), (92,)).txt",
+                        "shapes": "((-1, 92, 22), (92,))",
+                        "time": "2021-10-12 07:37:54"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "nn.conv2d": {
+            "0": {
+                "((4, 4), (0, 0))": {
+                    "((-1, 3, 128, 128), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 128, 128), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 128, 128), (32, 3, 3, 3))",
+                        "time": "2021-10-12 07:58:30"
+                    },
+                    "((-1, 3, 156, 156), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 156, 156), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 156, 156), (32, 3, 3, 3))",
+                        "time": "2021-10-12 08:01:10"
+                    },
+                    "((-1, 3, 224, 224), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 224, 224), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 224, 224), (32, 3, 3, 3))",
+                        "time": "2021-10-12 08:03:49"
+                    },
+                    "((-1, 3, 256, 256), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 256, 256), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 256, 256), (32, 3, 3, 3))",
+                        "time": "2021-10-12 08:06:21"
+                    },
+                    "((-1, 3, 28, 28), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 28, 28), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 28, 28), (32, 3, 3, 3))",
+                        "time": "2021-10-12 07:51:29"
+                    },
+                    "((-1, 3, 32, 32), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 32, 32), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 32, 32), (32, 3, 3, 3))",
+                        "time": "2021-10-12 07:53:38"
+                    },
+                    "((-1, 3, 64, 64), (32, 3, 3, 3))": {
+                        "changed_shape": "((4, 4), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.conv2d/0/((4, 4), (0, 0))/((-1, 3, 64, 64), (32, 3, 3, 3)).txt",
+                        "shapes": "((-1, 3, 64, 64), (32, 3, 3, 3))",
+                        "time": "2021-10-12 07:55:57"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "nn.dense": {
+            "0": {
+                "((2, 2), (0, 0))": {
+                    "((-1, 24), (43, 24))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 24), (43, 24)).txt",
+                        "shapes": "((-1, 24), (43, 24))",
+                        "time": "2021-10-12 08:20:27"
+                    },
+                    "((-1, 34), (9, 34))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 34), (9, 34)).txt",
+                        "shapes": "((-1, 34), (9, 34))",
+                        "time": "2021-10-12 08:13:25"
+                    },
+                    "((-1, 35), (13, 35))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 35), (13, 35)).txt",
+                        "shapes": "((-1, 35), (13, 35))",
+                        "time": "2021-10-12 08:11:05"
+                    },
+                    "((-1, 39), (98, 39))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 39), (98, 39)).txt",
+                        "shapes": "((-1, 39), (98, 39))",
+                        "time": "2021-10-12 08:08:44"
+                    },
+                    "((-1, 55), (91, 55))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 55), (91, 55)).txt",
+                        "shapes": "((-1, 55), (91, 55))",
+                        "time": "2021-10-12 08:15:44"
+                    },
+                    "((-1, 56), (39, 56))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 56), (39, 56)).txt",
+                        "shapes": "((-1, 56), (39, 56))",
+                        "time": "2021-10-12 08:18:09"
+                    },
+                    "((-1, 83), (56, 83))": {
+                        "changed_shape": "((2, 2), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.dense/0/((2, 2), (0, 0))/((-1, 83), (56, 83)).txt",
+                        "shapes": "((-1, 83), (56, 83))",
+                        "time": "2021-10-12 08:22:54"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "nn.relu": {
+            "0": {
+                "((3,), (0, 0))": {
+                    "((-1, 24, 58),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 24, 58),).txt",
+                        "shapes": "((-1, 24, 58),)",
+                        "time": "2021-10-12 08:34:46"
+                    },
+                    "((-1, 33, 49),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 33, 49),).txt",
+                        "shapes": "((-1, 33, 49),)",
+                        "time": "2021-10-12 08:37:08"
+                    },
+                    "((-1, 48, 88),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 48, 88),).txt",
+                        "shapes": "((-1, 48, 88),)",
+                        "time": "2021-10-12 08:25:17"
+                    },
+                    "((-1, 57, 70),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 57, 70),).txt",
+                        "shapes": "((-1, 57, 70),)",
+                        "time": "2021-10-12 08:32:24"
+                    },
+                    "((-1, 61, 58),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 61, 58),).txt",
+                        "shapes": "((-1, 61, 58),)",
+                        "time": "2021-10-12 08:39:30"
+                    },
+                    "((-1, 76, 60),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 76, 60),).txt",
+                        "shapes": "((-1, 76, 60),)",
+                        "time": "2021-10-12 08:30:01"
+                    },
+                    "((-1, 91, 57),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/nn.relu/0/((3,), (0, 0))/((-1, 91, 57),).txt",
+                        "shapes": "((-1, 91, 57),)",
+                        "time": "2021-10-12 08:27:40"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "sigmoid": {
+            "0": {
+                "((3,), (0, 0))": {
+                    "((-1, 59, 89),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 59, 89),).txt",
+                        "shapes": "((-1, 59, 89),)",
+                        "time": "2021-10-12 08:55:55"
+                    },
+                    "((-1, 61, 29),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 61, 29),).txt",
+                        "shapes": "((-1, 61, 29),)",
+                        "time": "2021-10-12 08:51:10"
+                    },
+                    "((-1, 68, 7),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 68, 7),).txt",
+                        "shapes": "((-1, 68, 7),)",
+                        "time": "2021-10-12 08:48:45"
+                    },
+                    "((-1, 7, 14),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 7, 14),).txt",
+                        "shapes": "((-1, 7, 14),)",
+                        "time": "2021-10-12 08:46:33"
+                    },
+                    "((-1, 72, 98),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 72, 98),).txt",
+                        "shapes": "((-1, 72, 98),)",
+                        "time": "2021-10-12 08:41:57"
+                    },
+                    "((-1, 86, 68),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 86, 68),).txt",
+                        "shapes": "((-1, 86, 68),)",
+                        "time": "2021-10-12 08:53:32"
+                    },
+                    "((-1, 90, 40),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/sigmoid/0/((3,), (0, 0))/((-1, 90, 40),).txt",
+                        "shapes": "((-1, 90, 40),)",
+                        "time": "2021-10-12 08:44:17"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "strided_slice": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 45, 54, 23),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 45, 54, 23),).txt",
+                        "shapes": "((-1, 45, 54, 23),)",
+                        "time": "2021-10-12 09:06:39"
+                    },
+                    "((-1, 45, 65, 76),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 45, 65, 76),).txt",
+                        "shapes": "((-1, 45, 65, 76),)",
+                        "time": "2021-10-12 09:02:17"
+                    },
+                    "((-1, 59, 37, 39),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 59, 37, 39),).txt",
+                        "shapes": "((-1, 59, 37, 39),)",
+                        "time": "2021-10-12 09:04:26"
+                    },
+                    "((-1, 75, 94, 85),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 75, 94, 85),).txt",
+                        "shapes": "((-1, 75, 94, 85),)",
+                        "time": "2021-10-12 09:10:59"
+                    },
+                    "((-1, 87, 49, 25),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 87, 49, 25),).txt",
+                        "shapes": "((-1, 87, 49, 25),)",
+                        "time": "2021-10-12 09:00:07"
+                    },
+                    "((-1, 87, 75, 53),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 87, 75, 53),).txt",
+                        "shapes": "((-1, 87, 75, 53),)",
+                        "time": "2021-10-12 09:08:50"
+                    },
+                    "((-1, 97, 22, 40),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/strided_slice/0/((4,), (0, 0))/((-1, 97, 22, 40),).txt",
+                        "shapes": "((-1, 97, 22, 40),)",
+                        "time": "2021-10-12 08:58:00"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "subtract": {
+            "0": {
+                "((3, 3), (0, 0))": {
+                    "((-1, 18, 85), (-1, 18, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 18, 85), (-1, 18, 1)).txt",
+                        "shapes": "((-1, 18, 85), (-1, 18, 1))",
+                        "time": "2021-10-12 09:24:51"
+                    },
+                    "((-1, 21, 90), (-1, 21, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 21, 90), (-1, 21, 1)).txt",
+                        "shapes": "((-1, 21, 90), (-1, 21, 1))",
+                        "time": "2021-10-12 09:13:21"
+                    },
+                    "((-1, 31, 3), (-1, 31, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 31, 3), (-1, 31, 1)).txt",
+                        "shapes": "((-1, 31, 3), (-1, 31, 1))",
+                        "time": "2021-10-12 09:22:33"
+                    },
+                    "((-1, 56, 28), (-1, 56, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 56, 28), (-1, 56, 1)).txt",
+                        "shapes": "((-1, 56, 28), (-1, 56, 1))",
+                        "time": "2021-10-12 09:27:11"
+                    },
+                    "((-1, 76, 4), (-1, 76, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 76, 4), (-1, 76, 1)).txt",
+                        "shapes": "((-1, 76, 4), (-1, 76, 1))",
+                        "time": "2021-10-12 09:20:17"
+                    },
+                    "((-1, 76, 71), (-1, 76, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 76, 71), (-1, 76, 1)).txt",
+                        "shapes": "((-1, 76, 71), (-1, 76, 1))",
+                        "time": "2021-10-12 09:18:06"
+                    },
+                    "((-1, 96, 65), (-1, 96, 1))": {
+                        "changed_shape": "((3, 3), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/subtract/0/((3, 3), (0, 0))/((-1, 96, 65), (-1, 96, 1)).txt",
+                        "shapes": "((-1, 96, 65), (-1, 96, 1))",
+                        "time": "2021-10-12 09:15:43"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        },
+        "tanh": {
+            "0": {
+                "((3,), (0, 0))": {
+                    "((-1, 12, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 12, 51),).txt",
+                        "shapes": "((-1, 12, 51),)",
+                        "time": "2021-10-12 09:31:46"
+                    },
+                    "((-1, 23, 15),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 23, 15),).txt",
+                        "shapes": "((-1, 23, 15),)",
+                        "time": "2021-10-12 09:34:02"
+                    },
+                    "((-1, 29, 29),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 29, 29),).txt",
+                        "shapes": "((-1, 29, 29),)",
+                        "time": "2021-10-12 09:29:33"
+                    },
+                    "((-1, 36, 48),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 36, 48),).txt",
+                        "shapes": "((-1, 36, 48),)",
+                        "time": "2021-10-12 09:36:22"
+                    },
+                    "((-1, 61, 45),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 61, 45),).txt",
+                        "shapes": "((-1, 61, 45),)",
+                        "time": "2021-10-12 09:41:03"
+                    },
+                    "((-1, 62, 78),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 62, 78),).txt",
+                        "shapes": "((-1, 62, 78),)",
+                        "time": "2021-10-12 09:43:23"
+                    },
+                    "((-1, 72, 38),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets/dell04/tanh/0/((3,), (0, 0))/((-1, 72, 38),).txt",
+                        "shapes": "((-1, 72, 38),)",
+                        "time": "2021-10-12 09:38:43"
+                    },
+                    "count": 7
+                },
+                "count": 7
+            },
+            "count": 7
+        }
+    },
     "dellh01": {
         "add": {
             "0": {
