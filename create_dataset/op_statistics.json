@@ -140,16 +140,20 @@
         }
     },
     "selected": {
-        "count": 8,
+        "count": 12,
         "list": [
             "split",
+            "strided_slice",
             "concatenate",
             "nn.dense",
             "add",
             "sigmoid",
             "tanh",
             "multiply",
-            "nn.conv2d"
+            "subtract",
+            "nn.conv2d",
+            "nn.bias_add",
+            "nn.relu"
         ]
     },
     "total": {

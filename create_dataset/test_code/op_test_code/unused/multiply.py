@@ -20,18 +20,6 @@ def calculate_op(dshape,dtype="float32"):
 
 # 定义参数
 function_dict = {"func":calculate_op, "name": "mat-multiply"}
-min_shapes=1
-max_shapes=100
-sampling=1.0
-dtype="float32"
-
-cycle_times=20
-min_repeat_ms=30
-opt_level=0
-fold_path="create_dataset/datasets/"
-device_name="dell04"
-show_print=True
-# log_file默认值.
 
 # 研究二维乘法
 count2 = 7

@@ -4,7 +4,7 @@ import sys
 import datetime
 
 def op_filter(key,value):
-    if value["avg"]>0.05:
+    if value["avg"]>0.01:
         return True
 
 def select_op(my_dict:dict,function):
