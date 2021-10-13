@@ -1,1 +1,5 @@
 create_dataset/select_op/datas_git
+__pycache__
+*.pyc
+create_dataset/__pycache__
+create_dataset/test_code/op_test_code/__pycache__
