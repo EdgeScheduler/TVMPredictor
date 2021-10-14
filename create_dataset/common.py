@@ -84,7 +84,7 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     * sampling: sampling/100 gives the hit rate
     * opt_level:   The optimization level of this pass.[0-3?]. opt_level= 0 means disable optimization.
     * dtype: when test the run time, the input data type
-    * device_parames_array: [device_parames_1, device_parames_2....]
+    * device_parames: example: {"target": "llvm", "device": tvm.cpu(0),"type":-1}
     * cycle_times: when test single-op, minimum test times
     * min_repeat_ms: if time(op)*cycle_times < min_repeat_ms，test will go on until fit.
     * cycle_times: when test single-op, minimum test times
