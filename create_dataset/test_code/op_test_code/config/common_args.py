@@ -10,6 +10,6 @@ opt_level=0
 fold_path="create_dataset/datasets/"
 show_print=True
 
-device_name="dell04"
+device_name="test"
 # device_parame_array = [Device.device_params_CPU,Device.device_params_GPU0]
 device_parame_array = [Device.device_params_GPU0,]
