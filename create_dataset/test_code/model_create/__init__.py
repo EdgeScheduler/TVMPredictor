@@ -1,1 +1,1 @@
-from create_dataset.test_code.model_create import Conv2d
+from create_dataset.test_code.model_create import NN_1
