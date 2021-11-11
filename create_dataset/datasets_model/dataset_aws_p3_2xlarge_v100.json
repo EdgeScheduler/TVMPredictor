@@ -1,0 +1,144 @@
+{
+    "aws01_t4": {
+        "count": 4,
+        "mobilenet": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws01_T4/mobilenet/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-10 07:06:14"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "resnet-50": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws01_T4/resnet-50/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-10 07:47:20"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "resnet3d-50": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws01_T4/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-10 08:14:05"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "squeezenet_v1_1": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws01_T4/squeezenet_v1_1/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-10 07:20:39"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        }
+    },
+    "aws_p3_2xlarge_v100": {
+        "count": 5,
+        "inception_v3": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 299, 299),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws_p3_2xlarge_v100/inception_v3/0/((4,), (0, 0))/((-1, 3, 299, 299),).txt",
+                        "shapes": "((-1, 3, 299, 299),)",
+                        "time": "2021-11-11 07:58:38"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "mobilenet": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws_p3_2xlarge_v100/mobilenet/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-11 08:17:07"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "resnet-50": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws_p3_2xlarge_v100/resnet-50/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-11 09:07:50"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "resnet3d-50": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws_p3_2xlarge_v100/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-11 09:41:42"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
+        "squeezenet_v1_1": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 224, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_model/aws_p3_2xlarge_v100/squeezenet_v1_1/0/((4,), (0, 0))/((-1, 3, 224, 224),).txt",
+                        "shapes": "((-1, 3, 224, 224),)",
+                        "time": "2021-11-11 08:34:14"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        }
+    },
+    "count": 9
+}
