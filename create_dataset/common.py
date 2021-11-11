@@ -4,7 +4,6 @@ import json
 import os
 import tvm
 import random
-import copy
 # from tvm import target
 import tvm.relay as relay
 import numpy as np
@@ -344,62 +343,3 @@ def translate_device_type(type_id)->str:
         return "CPU"
 
     return "GPU(" + str(type_id) + ")"
-
-
-def fix_json_config(log_file="create_dataset/datasets/dataset.json") ->None:
-    '''
-    delete un-exist dataset-items from json config
-    '''
-
-    # 去除json中有记录，但是实际上被删除的条目
-    log_dict = {}
-    if os.path.exists(log_file):
-        with open(log_file,'r') as f:
-            log_dict = json.load(f)
-
-    result = copy.deepcopy(log_dict)
-
-    for device_name,device_dict in log_dict.items():
-        if device_name=="count":
-            continue
-        for function_name,function_dict in device_dict.items():
-            if function_name=="count":
-                continue
-            for device_type,device_type_dict in function_dict.items():
-                if device_type=="count":
-                    continue
-                for shape_dimensionality,shape_dimensionality_dict in device_type_dict.items():
-                    if shape_dimensionality=="count":
-                        continue
-                    for shapes_str,value in shape_dimensionality_dict.items():
-                        if shapes_str=="count":
-                            continue
-                        if not os.path.exists(value["file_path"]):
-                            del result[device_name][function_name][device_type][shape_dimensionality][shapes_str]           # 删除对应条目
-
-                            result[device_name][function_name][device_type][shape_dimensionality]["count"]-=1
-                            # 没有条目时，删除维度信息
-                            if result[device_name][function_name][device_type][shape_dimensionality]["count"]<=0:
-                                del result[device_name][function_name][device_type][shape_dimensionality] 
-       
-                            result[device_name][function_name][device_type]["count"]-=1
-                            # 没有条目时，删除硬件信息
-                            if result[device_name][function_name][device_type]["count"]<=0:
-                                del result[device_name][function_name][device_type]
-
-                            result[device_name][function_name]["count"]-=1
-                            # 没有条目时，删除算子信息
-                            if result[device_name][function_name]["count"]<=0:
-                                del result[device_name][function_name]
-
-                            result[device_name]["count"]-=1
-                            # 没有条目时，删除设备信息
-                            if result[device_name]["count"]<=0:
-                                del result[device_name]
-
-                            result["count"] -= 1 
-                            if result["count"] <= 0:
-                                result={"count": 0}
-
-    with open(log_file,"w") as f:
-        json.dump(result,fp=f,indent=4,separators=(',', ': '),sort_keys=True)
