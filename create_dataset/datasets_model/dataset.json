@@ -1,6 +1,21 @@
 {
     "aws01_t4": {
         "count": 5,
+        "lstm": {
+            "0": {
+                "((3, 3), (0, 1))": {
+                    "((5, -1, 10), (2, -1, 20))": {
+                        "changed_shape": "((3, 3), (0, 1))",
+                        "file_path": "create_dataset/datasets_model/aws01_T4/lstm/0/((3, 3), (0, 1))/((5, -1, 10), (2, -1, 20)).txt",
+                        "shapes": "((5, -1, 10), (2, -1, 20))",
+                        "time": "2021-11-10 08:18:11"
+                    },
+                    "count": 1
+                },
+                "count": 1
+            },
+            "count": 1
+        },
         "mobilenet": {
             "0": {
                 "((4,), (0, 0))": {
@@ -60,15 +75,18 @@
                 "count": 1
             },
             "count": 1
-        },
+        }
+    },
+    "aws_g4dn_2xlarge_t4": {
+        "count": 1,
         "lstm": {
             "0": {
                 "((3, 3), (0, 1))": {
                     "((5, -1, 10), (2, -1, 20))": {
                         "changed_shape": "((3, 3), (0, 1))",
-                        "file_path": "create_dataset/datasets_model/aws01_T4/lstm/0/((3, 3), (0, 1))/((5, -1, 10), (2, -1, 20)).txt",
+                        "file_path": "create_dataset/datasets_model/aws_g4dn_2xlarge_T4/lstm/0/((3, 3), (0, 1))/((5, -1, 10), (2, -1, 20)).txt",
                         "shapes": "((5, -1, 10), (2, -1, 20))",
-                        "time": "2021-11-10 08:18:11"
+                        "time": "2021-11-11 11:23:14"
                     },
                     "count": 1
                 },
@@ -77,5 +95,5 @@
             "count": 1
         }
     },
-    "count": 5
+    "count": 6
 }
