@@ -30,7 +30,7 @@ cycle_times=3
 min_repeat_ms=30
 opt_level=0
 fold_path="create_dataset/datasets_model/"
-device_name="aws_p3_8xlarge_v100"
+device_name="aws_g4dn_4xlarge_T4"
 show_print=True
 
 count = 1
