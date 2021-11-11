@@ -22,14 +22,14 @@ def calculate_lstm(dshape,dtype="float32"):
 
 min_shapes=1
 max_shapes=201
-sampling=0.1
+sampling=1.0
 dtype="float32"
 
 isModule=True
 cycle_times=3
 min_repeat_ms=30
 opt_level=0
-fold_path="create_dataset/datasets/"
+fold_path="create_dataset/datasets_model/"
 device_name="aws01_T4"
 show_print=True
 
