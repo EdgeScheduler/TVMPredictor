@@ -7,6 +7,7 @@ parser = OptionParser(usage="define device name")
 parser.add_option("-dn", "--device_name", action="store",
                   dest="device_name",
                   default=False,
+                  type="string",
                   help="instance type")
 (options, args) = parser.parse_args()
 
