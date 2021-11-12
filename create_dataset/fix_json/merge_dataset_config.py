@@ -1,8 +1,4 @@
 from create_dataset.fix_json.common import merge
 
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/datasat_aws_p3_2xlarge_v100.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_aws_g4dn_2xlarge_T4.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_aws_g4dn_4xlarge_T4.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_aws_p3_2xlarge_v100.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_aws_p3_8xlarge_v100.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
-merge("/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_aws01_T4.json","/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset.json")
+merge("/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset_dell01.json","/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset.json")
+merge("/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset.json","/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset_h01.json","/home/yutian/TVMPredictor/create_dataset/datasets_models/dataset.json")

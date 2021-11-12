@@ -1,5 +1,1226 @@
 {
-    "count": 200,
+    "count": 600,
+    "dell01": {
+        "cnn": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 1, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 1),).txt",
+                        "shapes": "((-1, 3, 1, 1),)",
+                        "time": "2021-11-11 14:32:15"
+                    },
+                    "((-1, 3, 1, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 11),).txt",
+                        "shapes": "((-1, 3, 1, 11),)",
+                        "time": "2021-11-11 14:34:14"
+                    },
+                    "((-1, 3, 1, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 21),).txt",
+                        "shapes": "((-1, 3, 1, 21),)",
+                        "time": "2021-11-11 14:36:12"
+                    },
+                    "((-1, 3, 1, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 31),).txt",
+                        "shapes": "((-1, 3, 1, 31),)",
+                        "time": "2021-11-11 14:38:11"
+                    },
+                    "((-1, 3, 1, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 41),).txt",
+                        "shapes": "((-1, 3, 1, 41),)",
+                        "time": "2021-11-11 14:40:12"
+                    },
+                    "((-1, 3, 1, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 51),).txt",
+                        "shapes": "((-1, 3, 1, 51),)",
+                        "time": "2021-11-11 14:42:14"
+                    },
+                    "((-1, 3, 1, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 61),).txt",
+                        "shapes": "((-1, 3, 1, 61),)",
+                        "time": "2021-11-11 14:44:14"
+                    },
+                    "((-1, 3, 1, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 71),).txt",
+                        "shapes": "((-1, 3, 1, 71),)",
+                        "time": "2021-11-11 14:46:14"
+                    },
+                    "((-1, 3, 1, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 81),).txt",
+                        "shapes": "((-1, 3, 1, 81),)",
+                        "time": "2021-11-11 14:48:15"
+                    },
+                    "((-1, 3, 1, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 91),).txt",
+                        "shapes": "((-1, 3, 1, 91),)",
+                        "time": "2021-11-11 14:50:16"
+                    },
+                    "((-1, 3, 11, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 1),).txt",
+                        "shapes": "((-1, 3, 11, 1),)",
+                        "time": "2021-11-11 14:52:16"
+                    },
+                    "((-1, 3, 11, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 11),).txt",
+                        "shapes": "((-1, 3, 11, 11),)",
+                        "time": "2021-11-11 14:54:17"
+                    },
+                    "((-1, 3, 11, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 21),).txt",
+                        "shapes": "((-1, 3, 11, 21),)",
+                        "time": "2021-11-11 14:56:20"
+                    },
+                    "((-1, 3, 11, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 31),).txt",
+                        "shapes": "((-1, 3, 11, 31),)",
+                        "time": "2021-11-11 14:58:24"
+                    },
+                    "((-1, 3, 11, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 41),).txt",
+                        "shapes": "((-1, 3, 11, 41),)",
+                        "time": "2021-11-11 15:00:29"
+                    },
+                    "((-1, 3, 11, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 51),).txt",
+                        "shapes": "((-1, 3, 11, 51),)",
+                        "time": "2021-11-11 15:02:35"
+                    },
+                    "((-1, 3, 11, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 61),).txt",
+                        "shapes": "((-1, 3, 11, 61),)",
+                        "time": "2021-11-11 15:04:43"
+                    },
+                    "((-1, 3, 11, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 71),).txt",
+                        "shapes": "((-1, 3, 11, 71),)",
+                        "time": "2021-11-11 15:06:50"
+                    },
+                    "((-1, 3, 11, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 81),).txt",
+                        "shapes": "((-1, 3, 11, 81),)",
+                        "time": "2021-11-11 15:08:58"
+                    },
+                    "((-1, 3, 11, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 91),).txt",
+                        "shapes": "((-1, 3, 11, 91),)",
+                        "time": "2021-11-11 15:11:06"
+                    },
+                    "((-1, 3, 21, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 1),).txt",
+                        "shapes": "((-1, 3, 21, 1),)",
+                        "time": "2021-11-11 15:13:07"
+                    },
+                    "((-1, 3, 21, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 11),).txt",
+                        "shapes": "((-1, 3, 21, 11),)",
+                        "time": "2021-11-11 15:15:11"
+                    },
+                    "((-1, 3, 21, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 21),).txt",
+                        "shapes": "((-1, 3, 21, 21),)",
+                        "time": "2021-11-11 15:17:17"
+                    },
+                    "((-1, 3, 21, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 31),).txt",
+                        "shapes": "((-1, 3, 21, 31),)",
+                        "time": "2021-11-11 15:19:25"
+                    },
+                    "((-1, 3, 21, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 41),).txt",
+                        "shapes": "((-1, 3, 21, 41),)",
+                        "time": "2021-11-11 15:21:34"
+                    },
+                    "((-1, 3, 21, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 51),).txt",
+                        "shapes": "((-1, 3, 21, 51),)",
+                        "time": "2021-11-11 15:23:42"
+                    },
+                    "((-1, 3, 21, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 61),).txt",
+                        "shapes": "((-1, 3, 21, 61),)",
+                        "time": "2021-11-11 15:25:50"
+                    },
+                    "((-1, 3, 21, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 71),).txt",
+                        "shapes": "((-1, 3, 21, 71),)",
+                        "time": "2021-11-11 15:27:59"
+                    },
+                    "((-1, 3, 21, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 81),).txt",
+                        "shapes": "((-1, 3, 21, 81),)",
+                        "time": "2021-11-11 15:30:07"
+                    },
+                    "((-1, 3, 21, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 91),).txt",
+                        "shapes": "((-1, 3, 21, 91),)",
+                        "time": "2021-11-11 15:32:14"
+                    },
+                    "((-1, 3, 31, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 1),).txt",
+                        "shapes": "((-1, 3, 31, 1),)",
+                        "time": "2021-11-11 15:34:17"
+                    },
+                    "((-1, 3, 31, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 11),).txt",
+                        "shapes": "((-1, 3, 31, 11),)",
+                        "time": "2021-11-11 15:36:23"
+                    },
+                    "((-1, 3, 31, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 21),).txt",
+                        "shapes": "((-1, 3, 31, 21),)",
+                        "time": "2021-11-11 15:38:30"
+                    },
+                    "((-1, 3, 31, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 31),).txt",
+                        "shapes": "((-1, 3, 31, 31),)",
+                        "time": "2021-11-11 15:40:38"
+                    },
+                    "((-1, 3, 31, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 41),).txt",
+                        "shapes": "((-1, 3, 31, 41),)",
+                        "time": "2021-11-11 15:42:46"
+                    },
+                    "((-1, 3, 31, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 51),).txt",
+                        "shapes": "((-1, 3, 31, 51),)",
+                        "time": "2021-11-11 15:44:55"
+                    },
+                    "((-1, 3, 31, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 61),).txt",
+                        "shapes": "((-1, 3, 31, 61),)",
+                        "time": "2021-11-11 15:47:01"
+                    },
+                    "((-1, 3, 31, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 71),).txt",
+                        "shapes": "((-1, 3, 31, 71),)",
+                        "time": "2021-11-11 15:49:09"
+                    },
+                    "((-1, 3, 31, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 81),).txt",
+                        "shapes": "((-1, 3, 31, 81),)",
+                        "time": "2021-11-11 15:51:16"
+                    },
+                    "((-1, 3, 31, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 91),).txt",
+                        "shapes": "((-1, 3, 31, 91),)",
+                        "time": "2021-11-11 15:53:23"
+                    },
+                    "((-1, 3, 41, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 1),).txt",
+                        "shapes": "((-1, 3, 41, 1),)",
+                        "time": "2021-11-11 15:55:27"
+                    },
+                    "((-1, 3, 41, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 11),).txt",
+                        "shapes": "((-1, 3, 41, 11),)",
+                        "time": "2021-11-11 15:57:34"
+                    },
+                    "((-1, 3, 41, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 21),).txt",
+                        "shapes": "((-1, 3, 41, 21),)",
+                        "time": "2021-11-11 15:59:44"
+                    },
+                    "((-1, 3, 41, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 31),).txt",
+                        "shapes": "((-1, 3, 41, 31),)",
+                        "time": "2021-11-11 16:01:54"
+                    },
+                    "((-1, 3, 41, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 41),).txt",
+                        "shapes": "((-1, 3, 41, 41),)",
+                        "time": "2021-11-11 16:04:02"
+                    },
+                    "((-1, 3, 41, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 51),).txt",
+                        "shapes": "((-1, 3, 41, 51),)",
+                        "time": "2021-11-11 16:06:11"
+                    },
+                    "((-1, 3, 41, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 61),).txt",
+                        "shapes": "((-1, 3, 41, 61),)",
+                        "time": "2021-11-11 16:08:19"
+                    },
+                    "((-1, 3, 41, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 71),).txt",
+                        "shapes": "((-1, 3, 41, 71),)",
+                        "time": "2021-11-11 16:10:26"
+                    },
+                    "((-1, 3, 41, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 81),).txt",
+                        "shapes": "((-1, 3, 41, 81),)",
+                        "time": "2021-11-11 16:12:34"
+                    },
+                    "((-1, 3, 41, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 91),).txt",
+                        "shapes": "((-1, 3, 41, 91),)",
+                        "time": "2021-11-11 16:14:44"
+                    },
+                    "((-1, 3, 51, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 1),).txt",
+                        "shapes": "((-1, 3, 51, 1),)",
+                        "time": "2021-11-11 16:16:48"
+                    },
+                    "((-1, 3, 51, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 11),).txt",
+                        "shapes": "((-1, 3, 51, 11),)",
+                        "time": "2021-11-11 16:18:57"
+                    },
+                    "((-1, 3, 51, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 21),).txt",
+                        "shapes": "((-1, 3, 51, 21),)",
+                        "time": "2021-11-11 16:21:06"
+                    },
+                    "((-1, 3, 51, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 31),).txt",
+                        "shapes": "((-1, 3, 51, 31),)",
+                        "time": "2021-11-11 16:23:15"
+                    },
+                    "((-1, 3, 51, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 41),).txt",
+                        "shapes": "((-1, 3, 51, 41),)",
+                        "time": "2021-11-11 16:25:23"
+                    },
+                    "((-1, 3, 51, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 51),).txt",
+                        "shapes": "((-1, 3, 51, 51),)",
+                        "time": "2021-11-11 16:27:32"
+                    },
+                    "((-1, 3, 51, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 61),).txt",
+                        "shapes": "((-1, 3, 51, 61),)",
+                        "time": "2021-11-11 16:29:40"
+                    },
+                    "((-1, 3, 51, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 71),).txt",
+                        "shapes": "((-1, 3, 51, 71),)",
+                        "time": "2021-11-11 16:31:50"
+                    },
+                    "((-1, 3, 51, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 81),).txt",
+                        "shapes": "((-1, 3, 51, 81),)",
+                        "time": "2021-11-11 16:34:02"
+                    },
+                    "((-1, 3, 51, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 91),).txt",
+                        "shapes": "((-1, 3, 51, 91),)",
+                        "time": "2021-11-11 16:36:16"
+                    },
+                    "((-1, 3, 61, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 1),).txt",
+                        "shapes": "((-1, 3, 61, 1),)",
+                        "time": "2021-11-11 16:38:21"
+                    },
+                    "((-1, 3, 61, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 11),).txt",
+                        "shapes": "((-1, 3, 61, 11),)",
+                        "time": "2021-11-11 16:40:32"
+                    },
+                    "((-1, 3, 61, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 21),).txt",
+                        "shapes": "((-1, 3, 61, 21),)",
+                        "time": "2021-11-11 16:42:42"
+                    },
+                    "((-1, 3, 61, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 31),).txt",
+                        "shapes": "((-1, 3, 61, 31),)",
+                        "time": "2021-11-11 16:44:48"
+                    },
+                    "((-1, 3, 61, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 41),).txt",
+                        "shapes": "((-1, 3, 61, 41),)",
+                        "time": "2021-11-11 16:46:56"
+                    },
+                    "((-1, 3, 61, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 51),).txt",
+                        "shapes": "((-1, 3, 61, 51),)",
+                        "time": "2021-11-11 16:49:05"
+                    },
+                    "((-1, 3, 61, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 61),).txt",
+                        "shapes": "((-1, 3, 61, 61),)",
+                        "time": "2021-11-11 16:51:15"
+                    },
+                    "((-1, 3, 61, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 71),).txt",
+                        "shapes": "((-1, 3, 61, 71),)",
+                        "time": "2021-11-11 16:53:27"
+                    },
+                    "((-1, 3, 61, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 81),).txt",
+                        "shapes": "((-1, 3, 61, 81),)",
+                        "time": "2021-11-11 16:55:42"
+                    },
+                    "((-1, 3, 61, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 91),).txt",
+                        "shapes": "((-1, 3, 61, 91),)",
+                        "time": "2021-11-11 16:57:57"
+                    },
+                    "((-1, 3, 71, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 1),).txt",
+                        "shapes": "((-1, 3, 71, 1),)",
+                        "time": "2021-11-11 17:00:02"
+                    },
+                    "((-1, 3, 71, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 11),).txt",
+                        "shapes": "((-1, 3, 71, 11),)",
+                        "time": "2021-11-11 17:02:12"
+                    },
+                    "((-1, 3, 71, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 21),).txt",
+                        "shapes": "((-1, 3, 71, 21),)",
+                        "time": "2021-11-11 17:04:22"
+                    },
+                    "((-1, 3, 71, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 31),).txt",
+                        "shapes": "((-1, 3, 71, 31),)",
+                        "time": "2021-11-11 17:06:32"
+                    },
+                    "((-1, 3, 71, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 41),).txt",
+                        "shapes": "((-1, 3, 71, 41),)",
+                        "time": "2021-11-11 17:08:40"
+                    },
+                    "((-1, 3, 71, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 51),).txt",
+                        "shapes": "((-1, 3, 71, 51),)",
+                        "time": "2021-11-11 17:10:50"
+                    },
+                    "((-1, 3, 71, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 61),).txt",
+                        "shapes": "((-1, 3, 71, 61),)",
+                        "time": "2021-11-11 17:13:01"
+                    },
+                    "((-1, 3, 71, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 71),).txt",
+                        "shapes": "((-1, 3, 71, 71),)",
+                        "time": "2021-11-11 17:15:15"
+                    },
+                    "((-1, 3, 71, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 81),).txt",
+                        "shapes": "((-1, 3, 71, 81),)",
+                        "time": "2021-11-11 17:17:30"
+                    },
+                    "((-1, 3, 71, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 91),).txt",
+                        "shapes": "((-1, 3, 71, 91),)",
+                        "time": "2021-11-11 17:19:45"
+                    },
+                    "((-1, 3, 81, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 1),).txt",
+                        "shapes": "((-1, 3, 81, 1),)",
+                        "time": "2021-11-11 17:21:50"
+                    },
+                    "((-1, 3, 81, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 11),).txt",
+                        "shapes": "((-1, 3, 81, 11),)",
+                        "time": "2021-11-11 17:24:01"
+                    },
+                    "((-1, 3, 81, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 21),).txt",
+                        "shapes": "((-1, 3, 81, 21),)",
+                        "time": "2021-11-11 17:26:10"
+                    },
+                    "((-1, 3, 81, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 31),).txt",
+                        "shapes": "((-1, 3, 81, 31),)",
+                        "time": "2021-11-11 17:28:18"
+                    },
+                    "((-1, 3, 81, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 41),).txt",
+                        "shapes": "((-1, 3, 81, 41),)",
+                        "time": "2021-11-11 17:30:27"
+                    },
+                    "((-1, 3, 81, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 51),).txt",
+                        "shapes": "((-1, 3, 81, 51),)",
+                        "time": "2021-11-11 17:32:38"
+                    },
+                    "((-1, 3, 81, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 61),).txt",
+                        "shapes": "((-1, 3, 81, 61),)",
+                        "time": "2021-11-11 17:34:51"
+                    },
+                    "((-1, 3, 81, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 71),).txt",
+                        "shapes": "((-1, 3, 81, 71),)",
+                        "time": "2021-11-11 17:37:06"
+                    },
+                    "((-1, 3, 81, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 81),).txt",
+                        "shapes": "((-1, 3, 81, 81),)",
+                        "time": "2021-11-11 17:39:22"
+                    },
+                    "((-1, 3, 81, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 91),).txt",
+                        "shapes": "((-1, 3, 81, 91),)",
+                        "time": "2021-11-11 17:41:40"
+                    },
+                    "((-1, 3, 91, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 1),).txt",
+                        "shapes": "((-1, 3, 91, 1),)",
+                        "time": "2021-11-11 17:43:46"
+                    },
+                    "((-1, 3, 91, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 11),).txt",
+                        "shapes": "((-1, 3, 91, 11),)",
+                        "time": "2021-11-11 17:45:58"
+                    },
+                    "((-1, 3, 91, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 21),).txt",
+                        "shapes": "((-1, 3, 91, 21),)",
+                        "time": "2021-11-11 17:48:08"
+                    },
+                    "((-1, 3, 91, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 31),).txt",
+                        "shapes": "((-1, 3, 91, 31),)",
+                        "time": "2021-11-11 17:50:16"
+                    },
+                    "((-1, 3, 91, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 41),).txt",
+                        "shapes": "((-1, 3, 91, 41),)",
+                        "time": "2021-11-11 17:52:25"
+                    },
+                    "((-1, 3, 91, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 51),).txt",
+                        "shapes": "((-1, 3, 91, 51),)",
+                        "time": "2021-11-11 17:54:37"
+                    },
+                    "((-1, 3, 91, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 61),).txt",
+                        "shapes": "((-1, 3, 91, 61),)",
+                        "time": "2021-11-11 17:56:52"
+                    },
+                    "((-1, 3, 91, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 71),).txt",
+                        "shapes": "((-1, 3, 91, 71),)",
+                        "time": "2021-11-11 17:59:08"
+                    },
+                    "((-1, 3, 91, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 81),).txt",
+                        "shapes": "((-1, 3, 91, 81),)",
+                        "time": "2021-11-11 18:01:27"
+                    },
+                    "((-1, 3, 91, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 91),).txt",
+                        "shapes": "((-1, 3, 91, 91),)",
+                        "time": "2021-11-11 18:03:48"
+                    },
+                    "count": 100
+                },
+                "count": 100
+            },
+            "count": 100
+        },
+        "count": 200,
+        "nn_1": {
+            "0": {
+                "((3,), (0, 0))": {
+                    "((-1, 1, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 1),).txt",
+                        "shapes": "((-1, 1, 1),)",
+                        "time": "2021-11-11 18:05:51"
+                    },
+                    "((-1, 1, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 11),).txt",
+                        "shapes": "((-1, 1, 11),)",
+                        "time": "2021-11-11 18:07:49"
+                    },
+                    "((-1, 1, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 21),).txt",
+                        "shapes": "((-1, 1, 21),)",
+                        "time": "2021-11-11 18:09:46"
+                    },
+                    "((-1, 1, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 31),).txt",
+                        "shapes": "((-1, 1, 31),)",
+                        "time": "2021-11-11 18:11:44"
+                    },
+                    "((-1, 1, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 41),).txt",
+                        "shapes": "((-1, 1, 41),)",
+                        "time": "2021-11-11 18:13:43"
+                    },
+                    "((-1, 1, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 51),).txt",
+                        "shapes": "((-1, 1, 51),)",
+                        "time": "2021-11-11 18:15:41"
+                    },
+                    "((-1, 1, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 61),).txt",
+                        "shapes": "((-1, 1, 61),)",
+                        "time": "2021-11-11 18:17:40"
+                    },
+                    "((-1, 1, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 71),).txt",
+                        "shapes": "((-1, 1, 71),)",
+                        "time": "2021-11-11 18:19:39"
+                    },
+                    "((-1, 1, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 81),).txt",
+                        "shapes": "((-1, 1, 81),)",
+                        "time": "2021-11-11 18:21:38"
+                    },
+                    "((-1, 1, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 1, 91),).txt",
+                        "shapes": "((-1, 1, 91),)",
+                        "time": "2021-11-11 18:23:36"
+                    },
+                    "((-1, 11, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 1),).txt",
+                        "shapes": "((-1, 11, 1),)",
+                        "time": "2021-11-11 18:25:33"
+                    },
+                    "((-1, 11, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 11),).txt",
+                        "shapes": "((-1, 11, 11),)",
+                        "time": "2021-11-11 18:27:30"
+                    },
+                    "((-1, 11, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 21),).txt",
+                        "shapes": "((-1, 11, 21),)",
+                        "time": "2021-11-11 18:29:27"
+                    },
+                    "((-1, 11, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 31),).txt",
+                        "shapes": "((-1, 11, 31),)",
+                        "time": "2021-11-11 18:31:26"
+                    },
+                    "((-1, 11, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 41),).txt",
+                        "shapes": "((-1, 11, 41),)",
+                        "time": "2021-11-11 18:33:25"
+                    },
+                    "((-1, 11, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 51),).txt",
+                        "shapes": "((-1, 11, 51),)",
+                        "time": "2021-11-11 18:35:25"
+                    },
+                    "((-1, 11, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 61),).txt",
+                        "shapes": "((-1, 11, 61),)",
+                        "time": "2021-11-11 18:37:26"
+                    },
+                    "((-1, 11, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 71),).txt",
+                        "shapes": "((-1, 11, 71),)",
+                        "time": "2021-11-11 18:39:27"
+                    },
+                    "((-1, 11, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 81),).txt",
+                        "shapes": "((-1, 11, 81),)",
+                        "time": "2021-11-11 18:41:29"
+                    },
+                    "((-1, 11, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 11, 91),).txt",
+                        "shapes": "((-1, 11, 91),)",
+                        "time": "2021-11-11 18:43:31"
+                    },
+                    "((-1, 21, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 1),).txt",
+                        "shapes": "((-1, 21, 1),)",
+                        "time": "2021-11-11 18:45:29"
+                    },
+                    "((-1, 21, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 11),).txt",
+                        "shapes": "((-1, 21, 11),)",
+                        "time": "2021-11-11 18:47:28"
+                    },
+                    "((-1, 21, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 21),).txt",
+                        "shapes": "((-1, 21, 21),)",
+                        "time": "2021-11-11 18:49:28"
+                    },
+                    "((-1, 21, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 31),).txt",
+                        "shapes": "((-1, 21, 31),)",
+                        "time": "2021-11-11 18:51:29"
+                    },
+                    "((-1, 21, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 41),).txt",
+                        "shapes": "((-1, 21, 41),)",
+                        "time": "2021-11-11 18:53:31"
+                    },
+                    "((-1, 21, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 51),).txt",
+                        "shapes": "((-1, 21, 51),)",
+                        "time": "2021-11-11 18:55:33"
+                    },
+                    "((-1, 21, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 61),).txt",
+                        "shapes": "((-1, 21, 61),)",
+                        "time": "2021-11-11 18:57:37"
+                    },
+                    "((-1, 21, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 71),).txt",
+                        "shapes": "((-1, 21, 71),)",
+                        "time": "2021-11-11 18:59:41"
+                    },
+                    "((-1, 21, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 81),).txt",
+                        "shapes": "((-1, 21, 81),)",
+                        "time": "2021-11-11 19:01:45"
+                    },
+                    "((-1, 21, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 21, 91),).txt",
+                        "shapes": "((-1, 21, 91),)",
+                        "time": "2021-11-11 19:03:51"
+                    },
+                    "((-1, 31, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 1),).txt",
+                        "shapes": "((-1, 31, 1),)",
+                        "time": "2021-11-11 19:05:51"
+                    },
+                    "((-1, 31, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 11),).txt",
+                        "shapes": "((-1, 31, 11),)",
+                        "time": "2021-11-11 19:07:52"
+                    },
+                    "((-1, 31, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 21),).txt",
+                        "shapes": "((-1, 31, 21),)",
+                        "time": "2021-11-11 19:09:54"
+                    },
+                    "((-1, 31, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 31),).txt",
+                        "shapes": "((-1, 31, 31),)",
+                        "time": "2021-11-11 19:11:57"
+                    },
+                    "((-1, 31, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 41),).txt",
+                        "shapes": "((-1, 31, 41),)",
+                        "time": "2021-11-11 19:14:00"
+                    },
+                    "((-1, 31, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 51),).txt",
+                        "shapes": "((-1, 31, 51),)",
+                        "time": "2021-11-11 19:16:05"
+                    },
+                    "((-1, 31, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 61),).txt",
+                        "shapes": "((-1, 31, 61),)",
+                        "time": "2021-11-11 19:18:10"
+                    },
+                    "((-1, 31, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 71),).txt",
+                        "shapes": "((-1, 31, 71),)",
+                        "time": "2021-11-11 19:20:15"
+                    },
+                    "((-1, 31, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 81),).txt",
+                        "shapes": "((-1, 31, 81),)",
+                        "time": "2021-11-11 19:22:21"
+                    },
+                    "((-1, 31, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 31, 91),).txt",
+                        "shapes": "((-1, 31, 91),)",
+                        "time": "2021-11-11 19:24:27"
+                    },
+                    "((-1, 41, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 1),).txt",
+                        "shapes": "((-1, 41, 1),)",
+                        "time": "2021-11-11 19:26:27"
+                    },
+                    "((-1, 41, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 11),).txt",
+                        "shapes": "((-1, 41, 11),)",
+                        "time": "2021-11-11 19:28:28"
+                    },
+                    "((-1, 41, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 21),).txt",
+                        "shapes": "((-1, 41, 21),)",
+                        "time": "2021-11-11 19:30:31"
+                    },
+                    "((-1, 41, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 31),).txt",
+                        "shapes": "((-1, 41, 31),)",
+                        "time": "2021-11-11 19:32:35"
+                    },
+                    "((-1, 41, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 41),).txt",
+                        "shapes": "((-1, 41, 41),)",
+                        "time": "2021-11-11 19:34:40"
+                    },
+                    "((-1, 41, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 51),).txt",
+                        "shapes": "((-1, 41, 51),)",
+                        "time": "2021-11-11 19:36:46"
+                    },
+                    "((-1, 41, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 61),).txt",
+                        "shapes": "((-1, 41, 61),)",
+                        "time": "2021-11-11 19:38:52"
+                    },
+                    "((-1, 41, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 71),).txt",
+                        "shapes": "((-1, 41, 71),)",
+                        "time": "2021-11-11 19:40:58"
+                    },
+                    "((-1, 41, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 81),).txt",
+                        "shapes": "((-1, 41, 81),)",
+                        "time": "2021-11-11 19:43:04"
+                    },
+                    "((-1, 41, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 41, 91),).txt",
+                        "shapes": "((-1, 41, 91),)",
+                        "time": "2021-11-11 19:45:09"
+                    },
+                    "((-1, 51, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 1),).txt",
+                        "shapes": "((-1, 51, 1),)",
+                        "time": "2021-11-11 19:47:09"
+                    },
+                    "((-1, 51, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 11),).txt",
+                        "shapes": "((-1, 51, 11),)",
+                        "time": "2021-11-11 19:49:11"
+                    },
+                    "((-1, 51, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 21),).txt",
+                        "shapes": "((-1, 51, 21),)",
+                        "time": "2021-11-11 19:51:15"
+                    },
+                    "((-1, 51, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 31),).txt",
+                        "shapes": "((-1, 51, 31),)",
+                        "time": "2021-11-11 19:53:20"
+                    },
+                    "((-1, 51, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 41),).txt",
+                        "shapes": "((-1, 51, 41),)",
+                        "time": "2021-11-11 19:55:26"
+                    },
+                    "((-1, 51, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 51),).txt",
+                        "shapes": "((-1, 51, 51),)",
+                        "time": "2021-11-11 19:57:32"
+                    },
+                    "((-1, 51, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 61),).txt",
+                        "shapes": "((-1, 51, 61),)",
+                        "time": "2021-11-11 19:59:38"
+                    },
+                    "((-1, 51, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 71),).txt",
+                        "shapes": "((-1, 51, 71),)",
+                        "time": "2021-11-11 20:01:45"
+                    },
+                    "((-1, 51, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 81),).txt",
+                        "shapes": "((-1, 51, 81),)",
+                        "time": "2021-11-11 20:03:51"
+                    },
+                    "((-1, 51, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 51, 91),).txt",
+                        "shapes": "((-1, 51, 91),)",
+                        "time": "2021-11-11 20:05:57"
+                    },
+                    "((-1, 61, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 1),).txt",
+                        "shapes": "((-1, 61, 1),)",
+                        "time": "2021-11-11 20:07:57"
+                    },
+                    "((-1, 61, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 11),).txt",
+                        "shapes": "((-1, 61, 11),)",
+                        "time": "2021-11-11 20:10:00"
+                    },
+                    "((-1, 61, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 21),).txt",
+                        "shapes": "((-1, 61, 21),)",
+                        "time": "2021-11-11 20:12:05"
+                    },
+                    "((-1, 61, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 31),).txt",
+                        "shapes": "((-1, 61, 31),)",
+                        "time": "2021-11-11 20:14:12"
+                    },
+                    "((-1, 61, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 41),).txt",
+                        "shapes": "((-1, 61, 41),)",
+                        "time": "2021-11-11 20:16:19"
+                    },
+                    "((-1, 61, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 51),).txt",
+                        "shapes": "((-1, 61, 51),)",
+                        "time": "2021-11-11 20:18:25"
+                    },
+                    "((-1, 61, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 61),).txt",
+                        "shapes": "((-1, 61, 61),)",
+                        "time": "2021-11-11 20:20:32"
+                    },
+                    "((-1, 61, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 71),).txt",
+                        "shapes": "((-1, 61, 71),)",
+                        "time": "2021-11-11 20:22:39"
+                    },
+                    "((-1, 61, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 81),).txt",
+                        "shapes": "((-1, 61, 81),)",
+                        "time": "2021-11-11 20:24:44"
+                    },
+                    "((-1, 61, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 61, 91),).txt",
+                        "shapes": "((-1, 61, 91),)",
+                        "time": "2021-11-11 20:26:48"
+                    },
+                    "((-1, 71, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 1),).txt",
+                        "shapes": "((-1, 71, 1),)",
+                        "time": "2021-11-11 20:28:49"
+                    },
+                    "((-1, 71, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 11),).txt",
+                        "shapes": "((-1, 71, 11),)",
+                        "time": "2021-11-11 20:30:53"
+                    },
+                    "((-1, 71, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 21),).txt",
+                        "shapes": "((-1, 71, 21),)",
+                        "time": "2021-11-11 20:33:00"
+                    },
+                    "((-1, 71, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 31),).txt",
+                        "shapes": "((-1, 71, 31),)",
+                        "time": "2021-11-11 20:35:07"
+                    },
+                    "((-1, 71, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 41),).txt",
+                        "shapes": "((-1, 71, 41),)",
+                        "time": "2021-11-11 20:37:13"
+                    },
+                    "((-1, 71, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 51),).txt",
+                        "shapes": "((-1, 71, 51),)",
+                        "time": "2021-11-11 20:39:20"
+                    },
+                    "((-1, 71, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 61),).txt",
+                        "shapes": "((-1, 71, 61),)",
+                        "time": "2021-11-11 20:41:26"
+                    },
+                    "((-1, 71, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 71),).txt",
+                        "shapes": "((-1, 71, 71),)",
+                        "time": "2021-11-11 20:43:32"
+                    },
+                    "((-1, 71, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 81),).txt",
+                        "shapes": "((-1, 71, 81),)",
+                        "time": "2021-11-11 20:45:38"
+                    },
+                    "((-1, 71, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 71, 91),).txt",
+                        "shapes": "((-1, 71, 91),)",
+                        "time": "2021-11-11 20:47:41"
+                    },
+                    "((-1, 81, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 1),).txt",
+                        "shapes": "((-1, 81, 1),)",
+                        "time": "2021-11-11 20:49:43"
+                    },
+                    "((-1, 81, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 11),).txt",
+                        "shapes": "((-1, 81, 11),)",
+                        "time": "2021-11-11 20:51:47"
+                    },
+                    "((-1, 81, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 21),).txt",
+                        "shapes": "((-1, 81, 21),)",
+                        "time": "2021-11-11 20:53:55"
+                    },
+                    "((-1, 81, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 31),).txt",
+                        "shapes": "((-1, 81, 31),)",
+                        "time": "2021-11-11 20:56:03"
+                    },
+                    "((-1, 81, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 41),).txt",
+                        "shapes": "((-1, 81, 41),)",
+                        "time": "2021-11-11 20:58:09"
+                    },
+                    "((-1, 81, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 51),).txt",
+                        "shapes": "((-1, 81, 51),)",
+                        "time": "2021-11-11 21:00:16"
+                    },
+                    "((-1, 81, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 61),).txt",
+                        "shapes": "((-1, 81, 61),)",
+                        "time": "2021-11-11 21:02:22"
+                    },
+                    "((-1, 81, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 71),).txt",
+                        "shapes": "((-1, 81, 71),)",
+                        "time": "2021-11-11 21:04:28"
+                    },
+                    "((-1, 81, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 81),).txt",
+                        "shapes": "((-1, 81, 81),)",
+                        "time": "2021-11-11 21:06:32"
+                    },
+                    "((-1, 81, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 81, 91),).txt",
+                        "shapes": "((-1, 81, 91),)",
+                        "time": "2021-11-11 21:08:39"
+                    },
+                    "((-1, 91, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 1),).txt",
+                        "shapes": "((-1, 91, 1),)",
+                        "time": "2021-11-11 21:10:40"
+                    },
+                    "((-1, 91, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 11),).txt",
+                        "shapes": "((-1, 91, 11),)",
+                        "time": "2021-11-11 21:12:45"
+                    },
+                    "((-1, 91, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 21),).txt",
+                        "shapes": "((-1, 91, 21),)",
+                        "time": "2021-11-11 21:14:53"
+                    },
+                    "((-1, 91, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 31),).txt",
+                        "shapes": "((-1, 91, 31),)",
+                        "time": "2021-11-11 21:16:59"
+                    },
+                    "((-1, 91, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 41),).txt",
+                        "shapes": "((-1, 91, 41),)",
+                        "time": "2021-11-11 21:19:07"
+                    },
+                    "((-1, 91, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 51),).txt",
+                        "shapes": "((-1, 91, 51),)",
+                        "time": "2021-11-11 21:21:14"
+                    },
+                    "((-1, 91, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 61),).txt",
+                        "shapes": "((-1, 91, 61),)",
+                        "time": "2021-11-11 21:23:19"
+                    },
+                    "((-1, 91, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 71),).txt",
+                        "shapes": "((-1, 91, 71),)",
+                        "time": "2021-11-11 21:25:23"
+                    },
+                    "((-1, 91, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 81),).txt",
+                        "shapes": "((-1, 91, 81),)",
+                        "time": "2021-11-11 21:27:28"
+                    },
+                    "((-1, 91, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell01/NN_1/0/((3,), (0, 0))/((-1, 91, 91),).txt",
+                        "shapes": "((-1, 91, 91),)",
+                        "time": "2021-11-11 21:29:35"
+                    },
+                    "count": 100
+                },
+                "count": 100
+            },
+            "count": 100
+        }
+    },
     "dell04": {
         "cnn": {
             "1": {
@@ -1213,6 +2434,1227 @@
                         "file_path": "create_dataset/datasets_models/dell04/NN_1/1/((3,), (0, 0))/((-1, 91, 91),).txt",
                         "shapes": "((-1, 91, 91),)",
                         "time": "2021-11-10 08:06:24"
+                    },
+                    "count": 100
+                },
+                "count": 100
+            },
+            "count": 100
+        }
+    },
+    "dellh01": {
+        "cnn": {
+            "0": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 1, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 1),).txt",
+                        "shapes": "((-1, 3, 1, 1),)",
+                        "time": "2021-11-11 04:35:38"
+                    },
+                    "((-1, 3, 1, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 11),).txt",
+                        "shapes": "((-1, 3, 1, 11),)",
+                        "time": "2021-11-11 04:37:31"
+                    },
+                    "((-1, 3, 1, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 21),).txt",
+                        "shapes": "((-1, 3, 1, 21),)",
+                        "time": "2021-11-11 04:39:24"
+                    },
+                    "((-1, 3, 1, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 31),).txt",
+                        "shapes": "((-1, 3, 1, 31),)",
+                        "time": "2021-11-11 04:41:18"
+                    },
+                    "((-1, 3, 1, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 41),).txt",
+                        "shapes": "((-1, 3, 1, 41),)",
+                        "time": "2021-11-11 04:43:12"
+                    },
+                    "((-1, 3, 1, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 51),).txt",
+                        "shapes": "((-1, 3, 1, 51),)",
+                        "time": "2021-11-11 04:45:06"
+                    },
+                    "((-1, 3, 1, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 61),).txt",
+                        "shapes": "((-1, 3, 1, 61),)",
+                        "time": "2021-11-11 04:47:01"
+                    },
+                    "((-1, 3, 1, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 71),).txt",
+                        "shapes": "((-1, 3, 1, 71),)",
+                        "time": "2021-11-11 04:48:55"
+                    },
+                    "((-1, 3, 1, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 81),).txt",
+                        "shapes": "((-1, 3, 1, 81),)",
+                        "time": "2021-11-11 04:50:50"
+                    },
+                    "((-1, 3, 1, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 1, 91),).txt",
+                        "shapes": "((-1, 3, 1, 91),)",
+                        "time": "2021-11-11 04:52:44"
+                    },
+                    "((-1, 3, 11, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 1),).txt",
+                        "shapes": "((-1, 3, 11, 1),)",
+                        "time": "2021-11-11 04:54:36"
+                    },
+                    "((-1, 3, 11, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 11),).txt",
+                        "shapes": "((-1, 3, 11, 11),)",
+                        "time": "2021-11-11 04:56:31"
+                    },
+                    "((-1, 3, 11, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 21),).txt",
+                        "shapes": "((-1, 3, 11, 21),)",
+                        "time": "2021-11-11 04:58:25"
+                    },
+                    "((-1, 3, 11, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 31),).txt",
+                        "shapes": "((-1, 3, 11, 31),)",
+                        "time": "2021-11-11 05:00:21"
+                    },
+                    "((-1, 3, 11, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 41),).txt",
+                        "shapes": "((-1, 3, 11, 41),)",
+                        "time": "2021-11-11 05:02:17"
+                    },
+                    "((-1, 3, 11, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 51),).txt",
+                        "shapes": "((-1, 3, 11, 51),)",
+                        "time": "2021-11-11 05:04:12"
+                    },
+                    "((-1, 3, 11, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 61),).txt",
+                        "shapes": "((-1, 3, 11, 61),)",
+                        "time": "2021-11-11 05:06:08"
+                    },
+                    "((-1, 3, 11, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 71),).txt",
+                        "shapes": "((-1, 3, 11, 71),)",
+                        "time": "2021-11-11 05:08:02"
+                    },
+                    "((-1, 3, 11, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 81),).txt",
+                        "shapes": "((-1, 3, 11, 81),)",
+                        "time": "2021-11-11 05:09:57"
+                    },
+                    "((-1, 3, 11, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 11, 91),).txt",
+                        "shapes": "((-1, 3, 11, 91),)",
+                        "time": "2021-11-11 05:11:53"
+                    },
+                    "((-1, 3, 21, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 1),).txt",
+                        "shapes": "((-1, 3, 21, 1),)",
+                        "time": "2021-11-11 05:13:48"
+                    },
+                    "((-1, 3, 21, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 11),).txt",
+                        "shapes": "((-1, 3, 21, 11),)",
+                        "time": "2021-11-11 05:15:43"
+                    },
+                    "((-1, 3, 21, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 21),).txt",
+                        "shapes": "((-1, 3, 21, 21),)",
+                        "time": "2021-11-11 05:17:41"
+                    },
+                    "((-1, 3, 21, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 31),).txt",
+                        "shapes": "((-1, 3, 21, 31),)",
+                        "time": "2021-11-11 05:19:38"
+                    },
+                    "((-1, 3, 21, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 41),).txt",
+                        "shapes": "((-1, 3, 21, 41),)",
+                        "time": "2021-11-11 05:21:33"
+                    },
+                    "((-1, 3, 21, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 51),).txt",
+                        "shapes": "((-1, 3, 21, 51),)",
+                        "time": "2021-11-11 05:23:28"
+                    },
+                    "((-1, 3, 21, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 61),).txt",
+                        "shapes": "((-1, 3, 21, 61),)",
+                        "time": "2021-11-11 05:25:24"
+                    },
+                    "((-1, 3, 21, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 71),).txt",
+                        "shapes": "((-1, 3, 21, 71),)",
+                        "time": "2021-11-11 05:27:20"
+                    },
+                    "((-1, 3, 21, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 81),).txt",
+                        "shapes": "((-1, 3, 21, 81),)",
+                        "time": "2021-11-11 05:29:17"
+                    },
+                    "((-1, 3, 21, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 21, 91),).txt",
+                        "shapes": "((-1, 3, 21, 91),)",
+                        "time": "2021-11-11 05:31:13"
+                    },
+                    "((-1, 3, 31, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 1),).txt",
+                        "shapes": "((-1, 3, 31, 1),)",
+                        "time": "2021-11-11 05:33:09"
+                    },
+                    "((-1, 3, 31, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 11),).txt",
+                        "shapes": "((-1, 3, 31, 11),)",
+                        "time": "2021-11-11 05:35:06"
+                    },
+                    "((-1, 3, 31, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 21),).txt",
+                        "shapes": "((-1, 3, 31, 21),)",
+                        "time": "2021-11-11 05:37:03"
+                    },
+                    "((-1, 3, 31, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 31),).txt",
+                        "shapes": "((-1, 3, 31, 31),)",
+                        "time": "2021-11-11 05:38:59"
+                    },
+                    "((-1, 3, 31, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 41),).txt",
+                        "shapes": "((-1, 3, 31, 41),)",
+                        "time": "2021-11-11 05:40:55"
+                    },
+                    "((-1, 3, 31, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 51),).txt",
+                        "shapes": "((-1, 3, 31, 51),)",
+                        "time": "2021-11-11 05:42:52"
+                    },
+                    "((-1, 3, 31, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 61),).txt",
+                        "shapes": "((-1, 3, 31, 61),)",
+                        "time": "2021-11-11 05:44:48"
+                    },
+                    "((-1, 3, 31, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 71),).txt",
+                        "shapes": "((-1, 3, 31, 71),)",
+                        "time": "2021-11-11 05:46:46"
+                    },
+                    "((-1, 3, 31, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 81),).txt",
+                        "shapes": "((-1, 3, 31, 81),)",
+                        "time": "2021-11-11 05:48:44"
+                    },
+                    "((-1, 3, 31, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 31, 91),).txt",
+                        "shapes": "((-1, 3, 31, 91),)",
+                        "time": "2021-11-11 05:50:43"
+                    },
+                    "((-1, 3, 41, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 1),).txt",
+                        "shapes": "((-1, 3, 41, 1),)",
+                        "time": "2021-11-11 05:52:40"
+                    },
+                    "((-1, 3, 41, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 11),).txt",
+                        "shapes": "((-1, 3, 41, 11),)",
+                        "time": "2021-11-11 05:54:38"
+                    },
+                    "((-1, 3, 41, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 21),).txt",
+                        "shapes": "((-1, 3, 41, 21),)",
+                        "time": "2021-11-11 05:56:34"
+                    },
+                    "((-1, 3, 41, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 31),).txt",
+                        "shapes": "((-1, 3, 41, 31),)",
+                        "time": "2021-11-11 05:58:30"
+                    },
+                    "((-1, 3, 41, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 41),).txt",
+                        "shapes": "((-1, 3, 41, 41),)",
+                        "time": "2021-11-11 06:00:29"
+                    },
+                    "((-1, 3, 41, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 51),).txt",
+                        "shapes": "((-1, 3, 41, 51),)",
+                        "time": "2021-11-11 06:02:26"
+                    },
+                    "((-1, 3, 41, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 61),).txt",
+                        "shapes": "((-1, 3, 41, 61),)",
+                        "time": "2021-11-11 06:04:24"
+                    },
+                    "((-1, 3, 41, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 71),).txt",
+                        "shapes": "((-1, 3, 41, 71),)",
+                        "time": "2021-11-11 06:06:23"
+                    },
+                    "((-1, 3, 41, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 81),).txt",
+                        "shapes": "((-1, 3, 41, 81),)",
+                        "time": "2021-11-11 06:08:23"
+                    },
+                    "((-1, 3, 41, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 41, 91),).txt",
+                        "shapes": "((-1, 3, 41, 91),)",
+                        "time": "2021-11-11 06:10:25"
+                    },
+                    "((-1, 3, 51, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 1),).txt",
+                        "shapes": "((-1, 3, 51, 1),)",
+                        "time": "2021-11-11 06:12:22"
+                    },
+                    "((-1, 3, 51, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 11),).txt",
+                        "shapes": "((-1, 3, 51, 11),)",
+                        "time": "2021-11-11 06:14:20"
+                    },
+                    "((-1, 3, 51, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 21),).txt",
+                        "shapes": "((-1, 3, 51, 21),)",
+                        "time": "2021-11-11 06:16:18"
+                    },
+                    "((-1, 3, 51, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 31),).txt",
+                        "shapes": "((-1, 3, 51, 31),)",
+                        "time": "2021-11-11 06:18:15"
+                    },
+                    "((-1, 3, 51, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 41),).txt",
+                        "shapes": "((-1, 3, 51, 41),)",
+                        "time": "2021-11-11 06:20:11"
+                    },
+                    "((-1, 3, 51, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 51),).txt",
+                        "shapes": "((-1, 3, 51, 51),)",
+                        "time": "2021-11-11 06:22:06"
+                    },
+                    "((-1, 3, 51, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 61),).txt",
+                        "shapes": "((-1, 3, 51, 61),)",
+                        "time": "2021-11-11 06:24:02"
+                    },
+                    "((-1, 3, 51, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 71),).txt",
+                        "shapes": "((-1, 3, 51, 71),)",
+                        "time": "2021-11-11 06:26:00"
+                    },
+                    "((-1, 3, 51, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 81),).txt",
+                        "shapes": "((-1, 3, 51, 81),)",
+                        "time": "2021-11-11 06:28:00"
+                    },
+                    "((-1, 3, 51, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 51, 91),).txt",
+                        "shapes": "((-1, 3, 51, 91),)",
+                        "time": "2021-11-11 06:30:00"
+                    },
+                    "((-1, 3, 61, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 1),).txt",
+                        "shapes": "((-1, 3, 61, 1),)",
+                        "time": "2021-11-11 06:31:55"
+                    },
+                    "((-1, 3, 61, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 11),).txt",
+                        "shapes": "((-1, 3, 61, 11),)",
+                        "time": "2021-11-11 06:33:48"
+                    },
+                    "((-1, 3, 61, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 21),).txt",
+                        "shapes": "((-1, 3, 61, 21),)",
+                        "time": "2021-11-11 06:35:42"
+                    },
+                    "((-1, 3, 61, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 31),).txt",
+                        "shapes": "((-1, 3, 61, 31),)",
+                        "time": "2021-11-11 06:37:34"
+                    },
+                    "((-1, 3, 61, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 41),).txt",
+                        "shapes": "((-1, 3, 61, 41),)",
+                        "time": "2021-11-11 06:39:28"
+                    },
+                    "((-1, 3, 61, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 51),).txt",
+                        "shapes": "((-1, 3, 61, 51),)",
+                        "time": "2021-11-11 06:41:24"
+                    },
+                    "((-1, 3, 61, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 61),).txt",
+                        "shapes": "((-1, 3, 61, 61),)",
+                        "time": "2021-11-11 06:43:22"
+                    },
+                    "((-1, 3, 61, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 71),).txt",
+                        "shapes": "((-1, 3, 61, 71),)",
+                        "time": "2021-11-11 06:45:22"
+                    },
+                    "((-1, 3, 61, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 81),).txt",
+                        "shapes": "((-1, 3, 61, 81),)",
+                        "time": "2021-11-11 06:47:24"
+                    },
+                    "((-1, 3, 61, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 61, 91),).txt",
+                        "shapes": "((-1, 3, 61, 91),)",
+                        "time": "2021-11-11 06:49:28"
+                    },
+                    "((-1, 3, 71, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 1),).txt",
+                        "shapes": "((-1, 3, 71, 1),)",
+                        "time": "2021-11-11 06:51:22"
+                    },
+                    "((-1, 3, 71, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 11),).txt",
+                        "shapes": "((-1, 3, 71, 11),)",
+                        "time": "2021-11-11 06:53:14"
+                    },
+                    "((-1, 3, 71, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 21),).txt",
+                        "shapes": "((-1, 3, 71, 21),)",
+                        "time": "2021-11-11 06:55:08"
+                    },
+                    "((-1, 3, 71, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 31),).txt",
+                        "shapes": "((-1, 3, 71, 31),)",
+                        "time": "2021-11-11 06:57:02"
+                    },
+                    "((-1, 3, 71, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 41),).txt",
+                        "shapes": "((-1, 3, 71, 41),)",
+                        "time": "2021-11-11 06:58:58"
+                    },
+                    "((-1, 3, 71, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 51),).txt",
+                        "shapes": "((-1, 3, 71, 51),)",
+                        "time": "2021-11-11 07:00:55"
+                    },
+                    "((-1, 3, 71, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 61),).txt",
+                        "shapes": "((-1, 3, 71, 61),)",
+                        "time": "2021-11-11 07:02:55"
+                    },
+                    "((-1, 3, 71, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 71),).txt",
+                        "shapes": "((-1, 3, 71, 71),)",
+                        "time": "2021-11-11 07:04:57"
+                    },
+                    "((-1, 3, 71, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 81),).txt",
+                        "shapes": "((-1, 3, 71, 81),)",
+                        "time": "2021-11-11 07:07:02"
+                    },
+                    "((-1, 3, 71, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 71, 91),).txt",
+                        "shapes": "((-1, 3, 71, 91),)",
+                        "time": "2021-11-11 07:09:08"
+                    },
+                    "((-1, 3, 81, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 1),).txt",
+                        "shapes": "((-1, 3, 81, 1),)",
+                        "time": "2021-11-11 07:11:03"
+                    },
+                    "((-1, 3, 81, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 11),).txt",
+                        "shapes": "((-1, 3, 81, 11),)",
+                        "time": "2021-11-11 07:12:58"
+                    },
+                    "((-1, 3, 81, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 21),).txt",
+                        "shapes": "((-1, 3, 81, 21),)",
+                        "time": "2021-11-11 07:14:52"
+                    },
+                    "((-1, 3, 81, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 31),).txt",
+                        "shapes": "((-1, 3, 81, 31),)",
+                        "time": "2021-11-11 07:16:47"
+                    },
+                    "((-1, 3, 81, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 41),).txt",
+                        "shapes": "((-1, 3, 81, 41),)",
+                        "time": "2021-11-11 07:18:44"
+                    },
+                    "((-1, 3, 81, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 51),).txt",
+                        "shapes": "((-1, 3, 81, 51),)",
+                        "time": "2021-11-11 07:20:43"
+                    },
+                    "((-1, 3, 81, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 61),).txt",
+                        "shapes": "((-1, 3, 81, 61),)",
+                        "time": "2021-11-11 07:22:43"
+                    },
+                    "((-1, 3, 81, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 71),).txt",
+                        "shapes": "((-1, 3, 81, 71),)",
+                        "time": "2021-11-11 07:24:46"
+                    },
+                    "((-1, 3, 81, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 81),).txt",
+                        "shapes": "((-1, 3, 81, 81),)",
+                        "time": "2021-11-11 07:26:52"
+                    },
+                    "((-1, 3, 81, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 81, 91),).txt",
+                        "shapes": "((-1, 3, 81, 91),)",
+                        "time": "2021-11-11 07:28:59"
+                    },
+                    "((-1, 3, 91, 1),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 1),).txt",
+                        "shapes": "((-1, 3, 91, 1),)",
+                        "time": "2021-11-11 07:30:54"
+                    },
+                    "((-1, 3, 91, 11),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 11),).txt",
+                        "shapes": "((-1, 3, 91, 11),)",
+                        "time": "2021-11-11 07:32:48"
+                    },
+                    "((-1, 3, 91, 21),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 21),).txt",
+                        "shapes": "((-1, 3, 91, 21),)",
+                        "time": "2021-11-11 07:34:42"
+                    },
+                    "((-1, 3, 91, 31),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 31),).txt",
+                        "shapes": "((-1, 3, 91, 31),)",
+                        "time": "2021-11-11 07:36:39"
+                    },
+                    "((-1, 3, 91, 41),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 41),).txt",
+                        "shapes": "((-1, 3, 91, 41),)",
+                        "time": "2021-11-11 07:38:37"
+                    },
+                    "((-1, 3, 91, 51),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 51),).txt",
+                        "shapes": "((-1, 3, 91, 51),)",
+                        "time": "2021-11-11 07:40:37"
+                    },
+                    "((-1, 3, 91, 61),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 61),).txt",
+                        "shapes": "((-1, 3, 91, 61),)",
+                        "time": "2021-11-11 07:42:40"
+                    },
+                    "((-1, 3, 91, 71),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 71),).txt",
+                        "shapes": "((-1, 3, 91, 71),)",
+                        "time": "2021-11-11 07:44:45"
+                    },
+                    "((-1, 3, 91, 81),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 81),).txt",
+                        "shapes": "((-1, 3, 91, 81),)",
+                        "time": "2021-11-11 07:46:52"
+                    },
+                    "((-1, 3, 91, 91),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/CNN/0/((4,), (0, 0))/((-1, 3, 91, 91),).txt",
+                        "shapes": "((-1, 3, 91, 91),)",
+                        "time": "2021-11-11 07:49:04"
+                    },
+                    "count": 100
+                },
+                "count": 100
+            },
+            "count": 100
+        },
+        "count": 200,
+        "nn_1": {
+            "0": {
+                "((3,), (0, 0))": {
+                    "((-1, 1, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 1),).txt",
+                        "shapes": "((-1, 1, 1),)",
+                        "time": "2021-11-11 07:51:00"
+                    },
+                    "((-1, 1, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 11),).txt",
+                        "shapes": "((-1, 1, 11),)",
+                        "time": "2021-11-11 07:52:49"
+                    },
+                    "((-1, 1, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 21),).txt",
+                        "shapes": "((-1, 1, 21),)",
+                        "time": "2021-11-11 07:54:38"
+                    },
+                    "((-1, 1, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 31),).txt",
+                        "shapes": "((-1, 1, 31),)",
+                        "time": "2021-11-11 07:56:28"
+                    },
+                    "((-1, 1, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 41),).txt",
+                        "shapes": "((-1, 1, 41),)",
+                        "time": "2021-11-11 07:58:18"
+                    },
+                    "((-1, 1, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 51),).txt",
+                        "shapes": "((-1, 1, 51),)",
+                        "time": "2021-11-11 08:00:07"
+                    },
+                    "((-1, 1, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 61),).txt",
+                        "shapes": "((-1, 1, 61),)",
+                        "time": "2021-11-11 08:01:57"
+                    },
+                    "((-1, 1, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 71),).txt",
+                        "shapes": "((-1, 1, 71),)",
+                        "time": "2021-11-11 08:03:47"
+                    },
+                    "((-1, 1, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 81),).txt",
+                        "shapes": "((-1, 1, 81),)",
+                        "time": "2021-11-11 08:05:37"
+                    },
+                    "((-1, 1, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 1, 91),).txt",
+                        "shapes": "((-1, 1, 91),)",
+                        "time": "2021-11-11 08:07:28"
+                    },
+                    "((-1, 11, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 1),).txt",
+                        "shapes": "((-1, 11, 1),)",
+                        "time": "2021-11-11 08:09:17"
+                    },
+                    "((-1, 11, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 11),).txt",
+                        "shapes": "((-1, 11, 11),)",
+                        "time": "2021-11-11 08:11:07"
+                    },
+                    "((-1, 11, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 21),).txt",
+                        "shapes": "((-1, 11, 21),)",
+                        "time": "2021-11-11 08:12:56"
+                    },
+                    "((-1, 11, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 31),).txt",
+                        "shapes": "((-1, 11, 31),)",
+                        "time": "2021-11-11 08:14:46"
+                    },
+                    "((-1, 11, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 41),).txt",
+                        "shapes": "((-1, 11, 41),)",
+                        "time": "2021-11-11 08:16:37"
+                    },
+                    "((-1, 11, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 51),).txt",
+                        "shapes": "((-1, 11, 51),)",
+                        "time": "2021-11-11 08:18:27"
+                    },
+                    "((-1, 11, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 61),).txt",
+                        "shapes": "((-1, 11, 61),)",
+                        "time": "2021-11-11 08:20:18"
+                    },
+                    "((-1, 11, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 71),).txt",
+                        "shapes": "((-1, 11, 71),)",
+                        "time": "2021-11-11 08:22:10"
+                    },
+                    "((-1, 11, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 81),).txt",
+                        "shapes": "((-1, 11, 81),)",
+                        "time": "2021-11-11 08:24:01"
+                    },
+                    "((-1, 11, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 11, 91),).txt",
+                        "shapes": "((-1, 11, 91),)",
+                        "time": "2021-11-11 08:25:52"
+                    },
+                    "((-1, 21, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 1),).txt",
+                        "shapes": "((-1, 21, 1),)",
+                        "time": "2021-11-11 08:27:42"
+                    },
+                    "((-1, 21, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 11),).txt",
+                        "shapes": "((-1, 21, 11),)",
+                        "time": "2021-11-11 08:29:33"
+                    },
+                    "((-1, 21, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 21),).txt",
+                        "shapes": "((-1, 21, 21),)",
+                        "time": "2021-11-11 08:31:25"
+                    },
+                    "((-1, 21, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 31),).txt",
+                        "shapes": "((-1, 21, 31),)",
+                        "time": "2021-11-11 08:33:16"
+                    },
+                    "((-1, 21, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 41),).txt",
+                        "shapes": "((-1, 21, 41),)",
+                        "time": "2021-11-11 08:35:08"
+                    },
+                    "((-1, 21, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 51),).txt",
+                        "shapes": "((-1, 21, 51),)",
+                        "time": "2021-11-11 08:37:00"
+                    },
+                    "((-1, 21, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 61),).txt",
+                        "shapes": "((-1, 21, 61),)",
+                        "time": "2021-11-11 08:38:53"
+                    },
+                    "((-1, 21, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 71),).txt",
+                        "shapes": "((-1, 21, 71),)",
+                        "time": "2021-11-11 08:40:45"
+                    },
+                    "((-1, 21, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 81),).txt",
+                        "shapes": "((-1, 21, 81),)",
+                        "time": "2021-11-11 08:42:38"
+                    },
+                    "((-1, 21, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 21, 91),).txt",
+                        "shapes": "((-1, 21, 91),)",
+                        "time": "2021-11-11 08:44:30"
+                    },
+                    "((-1, 31, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 1),).txt",
+                        "shapes": "((-1, 31, 1),)",
+                        "time": "2021-11-11 08:46:22"
+                    },
+                    "((-1, 31, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 11),).txt",
+                        "shapes": "((-1, 31, 11),)",
+                        "time": "2021-11-11 08:48:14"
+                    },
+                    "((-1, 31, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 21),).txt",
+                        "shapes": "((-1, 31, 21),)",
+                        "time": "2021-11-11 08:50:07"
+                    },
+                    "((-1, 31, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 31),).txt",
+                        "shapes": "((-1, 31, 31),)",
+                        "time": "2021-11-11 08:52:00"
+                    },
+                    "((-1, 31, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 41),).txt",
+                        "shapes": "((-1, 31, 41),)",
+                        "time": "2021-11-11 08:53:53"
+                    },
+                    "((-1, 31, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 51),).txt",
+                        "shapes": "((-1, 31, 51),)",
+                        "time": "2021-11-11 08:55:44"
+                    },
+                    "((-1, 31, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 61),).txt",
+                        "shapes": "((-1, 31, 61),)",
+                        "time": "2021-11-11 08:57:35"
+                    },
+                    "((-1, 31, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 71),).txt",
+                        "shapes": "((-1, 31, 71),)",
+                        "time": "2021-11-11 08:59:26"
+                    },
+                    "((-1, 31, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 81),).txt",
+                        "shapes": "((-1, 31, 81),)",
+                        "time": "2021-11-11 09:01:17"
+                    },
+                    "((-1, 31, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 31, 91),).txt",
+                        "shapes": "((-1, 31, 91),)",
+                        "time": "2021-11-11 09:03:08"
+                    },
+                    "((-1, 41, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 1),).txt",
+                        "shapes": "((-1, 41, 1),)",
+                        "time": "2021-11-11 09:04:59"
+                    },
+                    "((-1, 41, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 11),).txt",
+                        "shapes": "((-1, 41, 11),)",
+                        "time": "2021-11-11 09:06:51"
+                    },
+                    "((-1, 41, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 21),).txt",
+                        "shapes": "((-1, 41, 21),)",
+                        "time": "2021-11-11 09:08:45"
+                    },
+                    "((-1, 41, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 31),).txt",
+                        "shapes": "((-1, 41, 31),)",
+                        "time": "2021-11-11 09:10:39"
+                    },
+                    "((-1, 41, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 41),).txt",
+                        "shapes": "((-1, 41, 41),)",
+                        "time": "2021-11-11 09:12:32"
+                    },
+                    "((-1, 41, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 51),).txt",
+                        "shapes": "((-1, 41, 51),)",
+                        "time": "2021-11-11 09:14:23"
+                    },
+                    "((-1, 41, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 61),).txt",
+                        "shapes": "((-1, 41, 61),)",
+                        "time": "2021-11-11 09:16:16"
+                    },
+                    "((-1, 41, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 71),).txt",
+                        "shapes": "((-1, 41, 71),)",
+                        "time": "2021-11-11 09:18:07"
+                    },
+                    "((-1, 41, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 81),).txt",
+                        "shapes": "((-1, 41, 81),)",
+                        "time": "2021-11-11 09:19:59"
+                    },
+                    "((-1, 41, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 41, 91),).txt",
+                        "shapes": "((-1, 41, 91),)",
+                        "time": "2021-11-11 09:21:52"
+                    },
+                    "((-1, 51, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 1),).txt",
+                        "shapes": "((-1, 51, 1),)",
+                        "time": "2021-11-11 09:23:45"
+                    },
+                    "((-1, 51, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 11),).txt",
+                        "shapes": "((-1, 51, 11),)",
+                        "time": "2021-11-11 09:25:37"
+                    },
+                    "((-1, 51, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 21),).txt",
+                        "shapes": "((-1, 51, 21),)",
+                        "time": "2021-11-11 09:27:30"
+                    },
+                    "((-1, 51, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 31),).txt",
+                        "shapes": "((-1, 51, 31),)",
+                        "time": "2021-11-11 09:29:23"
+                    },
+                    "((-1, 51, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 41),).txt",
+                        "shapes": "((-1, 51, 41),)",
+                        "time": "2021-11-11 09:31:15"
+                    },
+                    "((-1, 51, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 51),).txt",
+                        "shapes": "((-1, 51, 51),)",
+                        "time": "2021-11-11 09:33:07"
+                    },
+                    "((-1, 51, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 61),).txt",
+                        "shapes": "((-1, 51, 61),)",
+                        "time": "2021-11-11 09:34:59"
+                    },
+                    "((-1, 51, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 71),).txt",
+                        "shapes": "((-1, 51, 71),)",
+                        "time": "2021-11-11 09:36:50"
+                    },
+                    "((-1, 51, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 81),).txt",
+                        "shapes": "((-1, 51, 81),)",
+                        "time": "2021-11-11 09:38:41"
+                    },
+                    "((-1, 51, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 51, 91),).txt",
+                        "shapes": "((-1, 51, 91),)",
+                        "time": "2021-11-11 09:40:35"
+                    },
+                    "((-1, 61, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 1),).txt",
+                        "shapes": "((-1, 61, 1),)",
+                        "time": "2021-11-11 09:42:29"
+                    },
+                    "((-1, 61, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 11),).txt",
+                        "shapes": "((-1, 61, 11),)",
+                        "time": "2021-11-11 09:44:22"
+                    },
+                    "((-1, 61, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 21),).txt",
+                        "shapes": "((-1, 61, 21),)",
+                        "time": "2021-11-11 09:46:16"
+                    },
+                    "((-1, 61, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 31),).txt",
+                        "shapes": "((-1, 61, 31),)",
+                        "time": "2021-11-11 09:48:10"
+                    },
+                    "((-1, 61, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 41),).txt",
+                        "shapes": "((-1, 61, 41),)",
+                        "time": "2021-11-11 09:50:03"
+                    },
+                    "((-1, 61, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 51),).txt",
+                        "shapes": "((-1, 61, 51),)",
+                        "time": "2021-11-11 09:51:55"
+                    },
+                    "((-1, 61, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 61),).txt",
+                        "shapes": "((-1, 61, 61),)",
+                        "time": "2021-11-11 09:53:47"
+                    },
+                    "((-1, 61, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 71),).txt",
+                        "shapes": "((-1, 61, 71),)",
+                        "time": "2021-11-11 09:55:39"
+                    },
+                    "((-1, 61, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 81),).txt",
+                        "shapes": "((-1, 61, 81),)",
+                        "time": "2021-11-11 09:57:30"
+                    },
+                    "((-1, 61, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 61, 91),).txt",
+                        "shapes": "((-1, 61, 91),)",
+                        "time": "2021-11-11 09:59:22"
+                    },
+                    "((-1, 71, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 1),).txt",
+                        "shapes": "((-1, 71, 1),)",
+                        "time": "2021-11-11 10:01:16"
+                    },
+                    "((-1, 71, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 11),).txt",
+                        "shapes": "((-1, 71, 11),)",
+                        "time": "2021-11-11 10:03:11"
+                    },
+                    "((-1, 71, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 21),).txt",
+                        "shapes": "((-1, 71, 21),)",
+                        "time": "2021-11-11 10:05:06"
+                    },
+                    "((-1, 71, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 31),).txt",
+                        "shapes": "((-1, 71, 31),)",
+                        "time": "2021-11-11 10:06:59"
+                    },
+                    "((-1, 71, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 41),).txt",
+                        "shapes": "((-1, 71, 41),)",
+                        "time": "2021-11-11 10:08:51"
+                    },
+                    "((-1, 71, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 51),).txt",
+                        "shapes": "((-1, 71, 51),)",
+                        "time": "2021-11-11 10:10:44"
+                    },
+                    "((-1, 71, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 61),).txt",
+                        "shapes": "((-1, 71, 61),)",
+                        "time": "2021-11-11 10:12:36"
+                    },
+                    "((-1, 71, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 71),).txt",
+                        "shapes": "((-1, 71, 71),)",
+                        "time": "2021-11-11 10:14:31"
+                    },
+                    "((-1, 71, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 81),).txt",
+                        "shapes": "((-1, 71, 81),)",
+                        "time": "2021-11-11 10:16:25"
+                    },
+                    "((-1, 71, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 71, 91),).txt",
+                        "shapes": "((-1, 71, 91),)",
+                        "time": "2021-11-11 10:18:18"
+                    },
+                    "((-1, 81, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 1),).txt",
+                        "shapes": "((-1, 81, 1),)",
+                        "time": "2021-11-11 10:20:11"
+                    },
+                    "((-1, 81, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 11),).txt",
+                        "shapes": "((-1, 81, 11),)",
+                        "time": "2021-11-11 10:22:06"
+                    },
+                    "((-1, 81, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 21),).txt",
+                        "shapes": "((-1, 81, 21),)",
+                        "time": "2021-11-11 10:24:00"
+                    },
+                    "((-1, 81, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 31),).txt",
+                        "shapes": "((-1, 81, 31),)",
+                        "time": "2021-11-11 10:25:54"
+                    },
+                    "((-1, 81, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 41),).txt",
+                        "shapes": "((-1, 81, 41),)",
+                        "time": "2021-11-11 10:27:47"
+                    },
+                    "((-1, 81, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 51),).txt",
+                        "shapes": "((-1, 81, 51),)",
+                        "time": "2021-11-11 10:29:39"
+                    },
+                    "((-1, 81, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 61),).txt",
+                        "shapes": "((-1, 81, 61),)",
+                        "time": "2021-11-11 10:31:31"
+                    },
+                    "((-1, 81, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 71),).txt",
+                        "shapes": "((-1, 81, 71),)",
+                        "time": "2021-11-11 10:33:25"
+                    },
+                    "((-1, 81, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 81),).txt",
+                        "shapes": "((-1, 81, 81),)",
+                        "time": "2021-11-11 10:35:18"
+                    },
+                    "((-1, 81, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 81, 91),).txt",
+                        "shapes": "((-1, 81, 91),)",
+                        "time": "2021-11-11 10:37:13"
+                    },
+                    "((-1, 91, 1),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 1),).txt",
+                        "shapes": "((-1, 91, 1),)",
+                        "time": "2021-11-11 10:39:08"
+                    },
+                    "((-1, 91, 11),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 11),).txt",
+                        "shapes": "((-1, 91, 11),)",
+                        "time": "2021-11-11 10:41:04"
+                    },
+                    "((-1, 91, 21),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 21),).txt",
+                        "shapes": "((-1, 91, 21),)",
+                        "time": "2021-11-11 10:42:58"
+                    },
+                    "((-1, 91, 31),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 31),).txt",
+                        "shapes": "((-1, 91, 31),)",
+                        "time": "2021-11-11 10:44:51"
+                    },
+                    "((-1, 91, 41),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 41),).txt",
+                        "shapes": "((-1, 91, 41),)",
+                        "time": "2021-11-11 10:46:45"
+                    },
+                    "((-1, 91, 51),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 51),).txt",
+                        "shapes": "((-1, 91, 51),)",
+                        "time": "2021-11-11 10:48:39"
+                    },
+                    "((-1, 91, 61),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 61),).txt",
+                        "shapes": "((-1, 91, 61),)",
+                        "time": "2021-11-11 10:50:33"
+                    },
+                    "((-1, 91, 71),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 71),).txt",
+                        "shapes": "((-1, 91, 71),)",
+                        "time": "2021-11-11 10:52:27"
+                    },
+                    "((-1, 91, 81),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 81),).txt",
+                        "shapes": "((-1, 91, 81),)",
+                        "time": "2021-11-11 10:54:21"
+                    },
+                    "((-1, 91, 91),)": {
+                        "changed_shape": "((3,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dellh01/NN_1/0/((3,), (0, 0))/((-1, 91, 91),).txt",
+                        "shapes": "((-1, 91, 91),)",
+                        "time": "2021-11-11 10:56:17"
                     },
                     "count": 100
                 },
