@@ -1,9 +1,9 @@
-from operation_statistics.cnn_workload_generator import get_network
+from create_dataset.test_code.model_test_code.operation_statistics.cnn_workload_generator import get_network
 from create_dataset.common import generate_datasets_with_one_dimensionality_changing,Device
 from optparse import OptionParser
 
 parser = OptionParser(usage="define device name")
-parser.add_option("-dn", "--device_name", action="store",
+parser.add_option("-d", "--device_name", action="store",
                   dest="device_name",
                   default=False,
                   type="string",
