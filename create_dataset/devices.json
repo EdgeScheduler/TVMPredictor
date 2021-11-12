@@ -1,0 +1,31 @@
+{
+    "dell04":{
+        "0":"GTX-2080Ti",
+        "1":"GTX-2080Ti"
+    },
+    "dell03":{
+        "0":"Tesla-T4"
+    },
+    "dell01":{
+        "0":"Tesla-T4"
+    },
+    "dellh01":{
+        "0":"Tesla-K40c"
+    },
+    "aws_p3_2xlarge_v100":{
+        "0":"aws-p3_2xlarge_v100"
+    },
+
+    "aws_g4dn_2xlarge_t4":{
+        "0":"aws-g4dn_2xlarge_T4"
+    },
+    "aws_g4dn_4xlarge_t4":{
+        "0":"aws_g4dn_4xlarge_T4"
+    },
+    "aws_p3_8xlarge_v100":{
+        "0":"aws_p3_8xlarge_v100"
+    },
+    "aws01_t4":{
+        "0":"aws_T4"
+    }
+}
