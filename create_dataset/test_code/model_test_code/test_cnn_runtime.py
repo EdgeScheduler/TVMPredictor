@@ -1,5 +1,13 @@
 from operation_statistics.cnn_workload_generator import get_network
 from create_dataset.common import generate_datasets_with_one_dimensionality_changing,Device
+from optparse import OptionParser
+
+parser = OptionParser(usage="define device name")
+parser.add_option("-dn", "--device_name", action="store",
+                  dest="device_name",
+                  default=False,
+                  help="instance type")
+(options, args) = parser.parse_args()
 
 def calculate_inception_v3(dshape,dtype="float32"):
     '''
@@ -81,7 +89,7 @@ cycle_times=3
 min_repeat_ms=30
 opt_level=0
 fold_path="create_dataset/datasets_model/"
-device_name="aws_g4dn_4xlarge_T4"
+device_name=options.device_name
 show_print=True
 
 count = 1
@@ -92,18 +100,18 @@ device_parame_array3 = [Device.device_params_GPU0]
 range_min3 = ((-1,3,299,299),)
 range_max3 = ((-1,3,299,299),)
 function_dict = {"func":calculate_inception_v3, "name": "inception_v3"}
-generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule,dataset_config_name="dataset_"+device_name+".json")
 
 range_min3 = ((-1,3,224,224),)
 range_max3 = ((-1,3,224,224),)
 function_dict = {"func":calculate_mobilenet, "name": "mobilenet"}
-generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule,dataset_config_name="dataset_"+device_name+".json")
 
 function_dict = {"func":calculate_squeezenet_v1_1, "name": "squeezenet_v1_1"}
-generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule,dataset_config_name="dataset_"+device_name+".json")
 
 function_dict = {"func":calculate_resnet_50, "name": "resnet-50"}
-generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule,dataset_config_name="dataset_"+device_name+".json")
 
 function_dict = {"func":calculate_resnet3d_50, "name": "resnet3d-50"}
-generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule)
+generate_datasets_with_one_dimensionality_changing(device_parame_array=device_parame_array3,count=count,shape_dimensionality=shapes_dimensionality3,range_min=range_min3,range_max=range_max3,function_dict = function_dict,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation3,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print,isModule=isModule,dataset_config_name="dataset_"+device_name+".json")

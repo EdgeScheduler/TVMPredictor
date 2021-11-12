@@ -1,6 +1,14 @@
 import onnx
 import tvm
 from create_dataset.common import generate_datasets_with_one_dimensionality_changing,Device
+from optparse import OptionParser
+
+parser = OptionParser(usage="define device name")
+parser.add_option("-dn", "--device_name", action="store",
+                  dest="device_name",
+                  default=False,
+                  help="instance type")
+(options, args) = parser.parse_args()
 
 def calculate_lstm(dshape,dtype="float32"):
     '''
@@ -30,7 +38,7 @@ cycle_times=3
 min_repeat_ms=30
 opt_level=0
 fold_path="create_dataset/datasets_model/"
-device_name="aws_g4dn_4xlarge_T4"
+device_name=options.device_name
 show_print=True
 
 count = 1
