@@ -1,7 +1,7 @@
 #!/bin/bash
 
-aim_path="/root/yutian/TVMPredictor/create_dataset/datasets_model/dataset_.json"
-jsons_path="/root/yutian/TVMPredictor/create_dataset/datasets_model/*.json"
+aim_path="/home/yutian/TVMPredictor/create_dataset/datasets_model/dataset_auto.json"
+jsons_path="/home/yutian/TVMPredictor/create_dataset/datasets_model/*.json"
 
 SCRIPTFOLD="$( cd "$( dirname "$0"  )" && pwd )"
 cd $SCRIPTFOLD/../../
