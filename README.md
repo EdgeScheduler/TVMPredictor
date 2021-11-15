@@ -32,7 +32,7 @@ git clone git@fish.github.com:dos-lab/TVMPredictor.git
 
 cd TVMPredictor/
 git submodule init
-git submodule update
+git submodule update            # 会卡在 "clone into ..." 很久，其实正在处理
 
 # 或者直接执行 git clone --recursive git@fish.github.com:dos-lab/TVMPredictor.git
 ```
