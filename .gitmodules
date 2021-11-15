@@ -1,0 +1,3 @@
+[submodule "analyzes"]
+path = analyzes
+url = git@fish.github.com:dos-lab/TVMPredictor.git

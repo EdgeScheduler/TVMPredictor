@@ -1,7 +1,7 @@
 {
-    "count": 123,
+    "count": 125,
     "dell04": {
-        "count": 123,
+        "count": 125,
         "resnet3d-50": {
             "0": {
                 "((4,), (0, 0))": {
@@ -136,6 +136,18 @@
                         "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 176),).txt",
                         "shapes": "((-1, 3, 128, 176),)",
                         "time": "2021-11-14 20:20:55"
+                    },
+                    "((-1, 3, 128, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 192),).txt",
+                        "shapes": "((-1, 3, 128, 192),)",
+                        "time": "2021-11-14 20:37:43"
+                    },
+                    "((-1, 3, 128, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 208),).txt",
+                        "shapes": "((-1, 3, 128, 208),)",
+                        "time": "2021-11-14 20:54:58"
                     },
                     "((-1, 3, 128, 32),)": {
                         "changed_shape": "((4,), (0, 0))",
@@ -743,11 +755,11 @@
                         "shapes": "((-1, 3, 96, 96),)",
                         "time": "2021-11-14 08:12:17"
                     },
-                    "count": 123
+                    "count": 125
                 },
-                "count": 123
+                "count": 125
             },
-            "count": 123
+            "count": 125
         }
     }
 }
