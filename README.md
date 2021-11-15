@@ -15,7 +15,7 @@ git clone git@github.com:dos-lab/TVMPredictor.git
 ``` bash
 vim ~/.ssh/config
 
-# 添加如下内容
+# 添加如下内容(可以添加多个类似的块，不冲突)
 Host fish.github.com
     Hostname github.com
     PreferredAuthentications publickey
