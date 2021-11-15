@@ -1,7 +1,7 @@
 {
-    "count": 125,
+    "count": 128,
     "dell04": {
-        "count": 125,
+        "count": 128,
         "resnet3d-50": {
             "0": {
                 "((4,), (0, 0))": {
@@ -148,6 +148,24 @@
                         "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 208),).txt",
                         "shapes": "((-1, 3, 128, 208),)",
                         "time": "2021-11-14 20:54:58"
+                    },
+                    "((-1, 3, 128, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 224),).txt",
+                        "shapes": "((-1, 3, 128, 224),)",
+                        "time": "2021-11-14 21:12:00"
+                    },
+                    "((-1, 3, 128, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 240),).txt",
+                        "shapes": "((-1, 3, 128, 240),)",
+                        "time": "2021-11-14 21:28:44"
+                    },
+                    "((-1, 3, 128, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 128, 256),).txt",
+                        "shapes": "((-1, 3, 128, 256),)",
+                        "time": "2021-11-14 21:45:12"
                     },
                     "((-1, 3, 128, 32),)": {
                         "changed_shape": "((4,), (0, 0))",
@@ -755,11 +773,11 @@
                         "shapes": "((-1, 3, 96, 96),)",
                         "time": "2021-11-14 08:12:17"
                     },
-                    "count": 125
+                    "count": 128
                 },
-                "count": 125
+                "count": 128
             },
-            "count": 125
+            "count": 128
         }
     }
 }
