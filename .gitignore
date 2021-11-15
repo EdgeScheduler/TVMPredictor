@@ -3,4 +3,3 @@ __pycache__
 *.pyc
 create_dataset/__pycache__
 create_dataset/test_code/op_test_code/__pycache__
-create_dataset/test_code/model_test_code/config/common_args.py
