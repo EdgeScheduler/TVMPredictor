@@ -187,7 +187,7 @@ def uniform_sampling(min,max,sampling=0.1) ->list :
     if min<1 or min>max or sampling<=0.0 or sampling>1.0:
         return result
 
-    interval = int(1.0/sampling) 
+    interval = round(1.0/sampling) 
     i=min
     while i<=max:
         result.append(i)

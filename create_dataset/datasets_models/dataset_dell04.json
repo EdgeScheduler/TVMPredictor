@@ -1,0 +1,471 @@
+{
+    "count": 76,
+    "dell04": {
+        "count": 76,
+        "inception_v3": {
+            "1": {
+                "((4,), (0, 0))": {
+                    "((-1, 3, 16, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 112),).txt",
+                        "shapes": "((-1, 3, 16, 112),)",
+                        "time": "2021-11-12 14:14:21"
+                    },
+                    "((-1, 3, 16, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 128),).txt",
+                        "shapes": "((-1, 3, 16, 128),)",
+                        "time": "2021-11-12 15:20:29"
+                    },
+                    "((-1, 3, 16, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 144),).txt",
+                        "shapes": "((-1, 3, 16, 144),)",
+                        "time": "2021-11-12 16:26:34"
+                    },
+                    "((-1, 3, 16, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 16),).txt",
+                        "shapes": "((-1, 3, 16, 16),)",
+                        "time": "2021-11-12 04:51:42"
+                    },
+                    "((-1, 3, 16, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 160),).txt",
+                        "shapes": "((-1, 3, 16, 160),)",
+                        "time": "2021-11-12 17:32:15"
+                    },
+                    "((-1, 3, 16, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 176),).txt",
+                        "shapes": "((-1, 3, 16, 176),)",
+                        "time": "2021-11-12 18:38:06"
+                    },
+                    "((-1, 3, 16, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 192),).txt",
+                        "shapes": "((-1, 3, 16, 192),)",
+                        "time": "2021-11-12 19:44:07"
+                    },
+                    "((-1, 3, 16, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 208),).txt",
+                        "shapes": "((-1, 3, 16, 208),)",
+                        "time": "2021-11-12 20:50:30"
+                    },
+                    "((-1, 3, 16, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 224),).txt",
+                        "shapes": "((-1, 3, 16, 224),)",
+                        "time": "2021-11-12 21:35:24"
+                    },
+                    "((-1, 3, 16, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 240),).txt",
+                        "shapes": "((-1, 3, 16, 240),)",
+                        "time": "2021-11-12 22:20:23"
+                    },
+                    "((-1, 3, 16, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 256),).txt",
+                        "shapes": "((-1, 3, 16, 256),)",
+                        "time": "2021-11-12 23:05:19"
+                    },
+                    "((-1, 3, 16, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 32),).txt",
+                        "shapes": "((-1, 3, 16, 32),)",
+                        "time": "2021-11-12 05:57:35"
+                    },
+                    "((-1, 3, 16, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 48),).txt",
+                        "shapes": "((-1, 3, 16, 48),)",
+                        "time": "2021-11-12 07:03:35"
+                    },
+                    "((-1, 3, 16, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 64),).txt",
+                        "shapes": "((-1, 3, 16, 64),)",
+                        "time": "2021-11-12 08:09:29"
+                    },
+                    "((-1, 3, 16, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 80),).txt",
+                        "shapes": "((-1, 3, 16, 80),)",
+                        "time": "2021-11-12 12:02:01"
+                    },
+                    "((-1, 3, 16, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 16, 96),).txt",
+                        "shapes": "((-1, 3, 16, 96),)",
+                        "time": "2021-11-12 13:08:10"
+                    },
+                    "((-1, 3, 32, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 112),).txt",
+                        "shapes": "((-1, 3, 32, 112),)",
+                        "time": "2021-11-13 04:19:50"
+                    },
+                    "((-1, 3, 32, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 128),).txt",
+                        "shapes": "((-1, 3, 32, 128),)",
+                        "time": "2021-11-13 05:04:12"
+                    },
+                    "((-1, 3, 32, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 144),).txt",
+                        "shapes": "((-1, 3, 32, 144),)",
+                        "time": "2021-11-13 05:48:30"
+                    },
+                    "((-1, 3, 32, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 16),).txt",
+                        "shapes": "((-1, 3, 32, 16),)",
+                        "time": "2021-11-12 23:50:13"
+                    },
+                    "((-1, 3, 32, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 160),).txt",
+                        "shapes": "((-1, 3, 32, 160),)",
+                        "time": "2021-11-13 06:32:51"
+                    },
+                    "((-1, 3, 32, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 176),).txt",
+                        "shapes": "((-1, 3, 32, 176),)",
+                        "time": "2021-11-13 07:17:11"
+                    },
+                    "((-1, 3, 32, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 192),).txt",
+                        "shapes": "((-1, 3, 32, 192),)",
+                        "time": "2021-11-13 08:01:29"
+                    },
+                    "((-1, 3, 32, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 208),).txt",
+                        "shapes": "((-1, 3, 32, 208),)",
+                        "time": "2021-11-13 08:45:46"
+                    },
+                    "((-1, 3, 32, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 224),).txt",
+                        "shapes": "((-1, 3, 32, 224),)",
+                        "time": "2021-11-13 09:30:03"
+                    },
+                    "((-1, 3, 32, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 240),).txt",
+                        "shapes": "((-1, 3, 32, 240),)",
+                        "time": "2021-11-13 10:14:28"
+                    },
+                    "((-1, 3, 32, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 256),).txt",
+                        "shapes": "((-1, 3, 32, 256),)",
+                        "time": "2021-11-13 11:05:08"
+                    },
+                    "((-1, 3, 32, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 32),).txt",
+                        "shapes": "((-1, 3, 32, 32),)",
+                        "time": "2021-11-13 00:35:13"
+                    },
+                    "((-1, 3, 32, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 48),).txt",
+                        "shapes": "((-1, 3, 32, 48),)",
+                        "time": "2021-11-13 01:20:13"
+                    },
+                    "((-1, 3, 32, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 64),).txt",
+                        "shapes": "((-1, 3, 32, 64),)",
+                        "time": "2021-11-13 02:05:10"
+                    },
+                    "((-1, 3, 32, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 80),).txt",
+                        "shapes": "((-1, 3, 32, 80),)",
+                        "time": "2021-11-13 02:50:10"
+                    },
+                    "((-1, 3, 32, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 32, 96),).txt",
+                        "shapes": "((-1, 3, 32, 96),)",
+                        "time": "2021-11-13 03:35:10"
+                    },
+                    "((-1, 3, 48, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 112),).txt",
+                        "shapes": "((-1, 3, 48, 112),)",
+                        "time": "2021-11-13 16:19:40"
+                    },
+                    "((-1, 3, 48, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 128),).txt",
+                        "shapes": "((-1, 3, 48, 128),)",
+                        "time": "2021-11-13 17:04:39"
+                    },
+                    "((-1, 3, 48, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 144),).txt",
+                        "shapes": "((-1, 3, 48, 144),)",
+                        "time": "2021-11-13 17:49:38"
+                    },
+                    "((-1, 3, 48, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 16),).txt",
+                        "shapes": "((-1, 3, 48, 16),)",
+                        "time": "2021-11-13 11:50:04"
+                    },
+                    "((-1, 3, 48, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 160),).txt",
+                        "shapes": "((-1, 3, 48, 160),)",
+                        "time": "2021-11-13 18:34:39"
+                    },
+                    "((-1, 3, 48, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 176),).txt",
+                        "shapes": "((-1, 3, 48, 176),)",
+                        "time": "2021-11-13 19:19:44"
+                    },
+                    "((-1, 3, 48, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 192),).txt",
+                        "shapes": "((-1, 3, 48, 192),)",
+                        "time": "2021-11-13 20:04:49"
+                    },
+                    "((-1, 3, 48, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 208),).txt",
+                        "shapes": "((-1, 3, 48, 208),)",
+                        "time": "2021-11-13 20:49:54"
+                    },
+                    "((-1, 3, 48, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 224),).txt",
+                        "shapes": "((-1, 3, 48, 224),)",
+                        "time": "2021-11-13 21:35:00"
+                    },
+                    "((-1, 3, 48, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 240),).txt",
+                        "shapes": "((-1, 3, 48, 240),)",
+                        "time": "2021-11-13 22:20:05"
+                    },
+                    "((-1, 3, 48, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 256),).txt",
+                        "shapes": "((-1, 3, 48, 256),)",
+                        "time": "2021-11-13 23:05:12"
+                    },
+                    "((-1, 3, 48, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 32),).txt",
+                        "shapes": "((-1, 3, 48, 32),)",
+                        "time": "2021-11-13 12:35:00"
+                    },
+                    "((-1, 3, 48, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 48),).txt",
+                        "shapes": "((-1, 3, 48, 48),)",
+                        "time": "2021-11-13 13:19:57"
+                    },
+                    "((-1, 3, 48, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 64),).txt",
+                        "shapes": "((-1, 3, 48, 64),)",
+                        "time": "2021-11-13 14:04:52"
+                    },
+                    "((-1, 3, 48, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 80),).txt",
+                        "shapes": "((-1, 3, 48, 80),)",
+                        "time": "2021-11-13 14:49:46"
+                    },
+                    "((-1, 3, 48, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 48, 96),).txt",
+                        "shapes": "((-1, 3, 48, 96),)",
+                        "time": "2021-11-13 15:34:43"
+                    },
+                    "((-1, 3, 64, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 112),).txt",
+                        "shapes": "((-1, 3, 64, 112),)",
+                        "time": "2021-11-14 04:21:18"
+                    },
+                    "((-1, 3, 64, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 128),).txt",
+                        "shapes": "((-1, 3, 64, 128),)",
+                        "time": "2021-11-14 05:06:27"
+                    },
+                    "((-1, 3, 64, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 144),).txt",
+                        "shapes": "((-1, 3, 64, 144),)",
+                        "time": "2021-11-14 05:51:36"
+                    },
+                    "((-1, 3, 64, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 16),).txt",
+                        "shapes": "((-1, 3, 64, 16),)",
+                        "time": "2021-11-13 23:50:18"
+                    },
+                    "((-1, 3, 64, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 160),).txt",
+                        "shapes": "((-1, 3, 64, 160),)",
+                        "time": "2021-11-14 06:36:46"
+                    },
+                    "((-1, 3, 64, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 176),).txt",
+                        "shapes": "((-1, 3, 64, 176),)",
+                        "time": "2021-11-14 07:21:56"
+                    },
+                    "((-1, 3, 64, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 192),).txt",
+                        "shapes": "((-1, 3, 64, 192),)",
+                        "time": "2021-11-14 08:07:04"
+                    },
+                    "((-1, 3, 64, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 208),).txt",
+                        "shapes": "((-1, 3, 64, 208),)",
+                        "time": "2021-11-14 08:52:12"
+                    },
+                    "((-1, 3, 64, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 224),).txt",
+                        "shapes": "((-1, 3, 64, 224),)",
+                        "time": "2021-11-14 09:37:21"
+                    },
+                    "((-1, 3, 64, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 240),).txt",
+                        "shapes": "((-1, 3, 64, 240),)",
+                        "time": "2021-11-14 10:22:26"
+                    },
+                    "((-1, 3, 64, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 256),).txt",
+                        "shapes": "((-1, 3, 64, 256),)",
+                        "time": "2021-11-14 11:07:33"
+                    },
+                    "((-1, 3, 64, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 32),).txt",
+                        "shapes": "((-1, 3, 64, 32),)",
+                        "time": "2021-11-14 00:35:27"
+                    },
+                    "((-1, 3, 64, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 48),).txt",
+                        "shapes": "((-1, 3, 64, 48),)",
+                        "time": "2021-11-14 01:20:36"
+                    },
+                    "((-1, 3, 64, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 64),).txt",
+                        "shapes": "((-1, 3, 64, 64),)",
+                        "time": "2021-11-14 02:05:45"
+                    },
+                    "((-1, 3, 64, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 80),).txt",
+                        "shapes": "((-1, 3, 64, 80),)",
+                        "time": "2021-11-14 02:50:55"
+                    },
+                    "((-1, 3, 64, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 64, 96),).txt",
+                        "shapes": "((-1, 3, 64, 96),)",
+                        "time": "2021-11-14 03:36:06"
+                    },
+                    "((-1, 3, 80, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 112),).txt",
+                        "shapes": "((-1, 3, 80, 112),)",
+                        "time": "2021-11-14 16:23:18"
+                    },
+                    "((-1, 3, 80, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 128),).txt",
+                        "shapes": "((-1, 3, 80, 128),)",
+                        "time": "2021-11-14 17:08:23"
+                    },
+                    "((-1, 3, 80, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 144),).txt",
+                        "shapes": "((-1, 3, 80, 144),)",
+                        "time": "2021-11-14 17:53:30"
+                    },
+                    "((-1, 3, 80, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 16),).txt",
+                        "shapes": "((-1, 3, 80, 16),)",
+                        "time": "2021-11-14 11:52:38"
+                    },
+                    "((-1, 3, 80, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 160),).txt",
+                        "shapes": "((-1, 3, 80, 160),)",
+                        "time": "2021-11-14 18:38:36"
+                    },
+                    "((-1, 3, 80, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 176),).txt",
+                        "shapes": "((-1, 3, 80, 176),)",
+                        "time": "2021-11-14 19:23:47"
+                    },
+                    "((-1, 3, 80, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 192),).txt",
+                        "shapes": "((-1, 3, 80, 192),)",
+                        "time": "2021-11-14 20:08:57"
+                    },
+                    "((-1, 3, 80, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 32),).txt",
+                        "shapes": "((-1, 3, 80, 32),)",
+                        "time": "2021-11-14 12:37:46"
+                    },
+                    "((-1, 3, 80, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 48),).txt",
+                        "shapes": "((-1, 3, 80, 48),)",
+                        "time": "2021-11-14 13:22:52"
+                    },
+                    "((-1, 3, 80, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 64),).txt",
+                        "shapes": "((-1, 3, 80, 64),)",
+                        "time": "2021-11-14 14:08:00"
+                    },
+                    "((-1, 3, 80, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 80),).txt",
+                        "shapes": "((-1, 3, 80, 80),)",
+                        "time": "2021-11-14 14:53:05"
+                    },
+                    "((-1, 3, 80, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/inception_v3/1/((4,), (0, 0))/((-1, 3, 80, 96),).txt",
+                        "shapes": "((-1, 3, 80, 96),)",
+                        "time": "2021-11-14 15:38:11"
+                    },
+                    "count": 76
+                },
+                "count": 76
+            },
+            "count": 76
+        }
+    }
+}
