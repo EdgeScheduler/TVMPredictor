@@ -36,3 +36,21 @@ git submodule update            # 会卡在 "clone into ..." 很久，其实正�
 
 # 或者直接执行 git clone --recursive git@fish.github.com:dos-lab/TVMPredictor.git
 ```
+
+
+### 修改了子模块内容：
+1. 在子模块文件夹执行
+
+```bash
+git add .
+git commit -m "...
+git push origin HEAD:master
+```
+
+2. 在主仓库文件夹再次执行
+
+```bash
+git add .
+git commit -m "..."
+git pull git@fish.github.com:dos-lab/TVM-Analyze.git master
+```
