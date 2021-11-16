@@ -43,14 +43,16 @@ git submodule update            # 会卡在 "clone into ..." 很久，其实正�
 
 ```bash
 git add .
-git commit -m "...
-git push origin HEAD:master
+git commit -m "..."
+git push                            # 如果出错可以试试：git push origin HEAD:分支名
+
+# 此时子仓库内容更新了，但是主仓库指向的仍然是子仓库的旧版本（即子仓库更新，主仓库仍旧会保持不变）
 ```
 
-2. 在主仓库文件夹再次执行
+2. 将主仓库引用的子仓库内容指向为最新版
 
 ```bash
 git add .
 git commit -m "..."
-git pull git@fish.github.com:dos-lab/TVM-Analyze.git master
+git push
 ```
