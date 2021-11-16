@@ -38,7 +38,7 @@ def fix_dict_count(datas):
     datas["count"] = count_total
     return datas
 
-def delete_unexist_config(log_file="create_dataset/datasets/dataset.json") ->None:
+def delete_unexist_config(log_file="Datasets/TVM/datasets/dataset.json") ->None:
     '''
     delete un-exist dataset-items from json config
     '''

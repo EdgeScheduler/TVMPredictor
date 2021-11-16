@@ -17,7 +17,7 @@ class Device:
     device_params_GPU0 = {"target": "cuda", "device": tvm.cuda(0),"type":0}
     device_params_GPU1 = {"target": "cuda", "device": tvm.cuda(1),"type":1}
 
-def generate_datasets_with_one_dimensionality_changing(count,shape_dimensionality,range_min,range_max,function_dict,min_shapes,max_shapes,sampling,force_shape_relation=None,dtype="float32",device_parame_array=[{"target": "llvm", "device": tvm.cpu(0),"type":-1}],cycle_times=200,min_repeat_ms=500,opt_level=0,fold_path="create_dataset/datasets/",device_name="dell04",dataset_config_name="dataset.json",show_print=True,isModule=False) ->None:
+def generate_datasets_with_one_dimensionality_changing(count,shape_dimensionality,range_min,range_max,function_dict,min_shapes,max_shapes,sampling,force_shape_relation=None,dtype="float32",device_parame_array=[{"target": "llvm", "device": tvm.cpu(0),"type":-1}],cycle_times=200,min_repeat_ms=500,opt_level=0,fold_path="datasets/",prefix_path="create_dataset/",device_name="dell04",dataset_config_name="dataset.json",show_print=True,isModule=False) ->None:
     '''
     * count: the datasets enum try best to generate.
     * shape_dimensionality: gives the shape info and changing dimensionality. ((a,b,c),(x,y)) means there is three inputs, and the first input is a-d, the second input is b-d, the third input is c-d. The y-d of the x-th input is changing.
@@ -31,7 +31,8 @@ def generate_datasets_with_one_dimensionality_changing(count,shape_dimensionalit
     * device_parames_array: [device_parames_1, device_parames_2....]，reference to function<generate_dataset_with_one_dimensionality_changing>
     * cycle_times: when test single-op, minimum test times
     * min_repeat_ms: if time(op)*cycle_times < min_repeat_ms，test will go on until fit.
-    * fold_path: the save root fold for datasets
+    * prefix_path: gives the path to <fold_path> in special device.
+    * fold_path: the save root fold for datasets, gives the record root path.
     * device_name: the alias-name of device where you test op.
     * dataset_config_name: the dataset config name, which record and organize the whole dataset. It's a good choice to keep the default value if you are not sure.
     * show_print: show progress-information in terminal or not when generate the datasets.
@@ -47,7 +48,7 @@ def generate_datasets_with_one_dimensionality_changing(count,shape_dimensionalit
     ---------
     no return value.
     '''
-    log_file=os.path.join(fold_path,dataset_config_name)
+    log_file=os.path.join(os.path.join(prefix_path,fold_path),dataset_config_name)
     log_dict = {"count":0}
     if os.path.exists(log_file):
         with open(log_file,'r') as f:
@@ -69,9 +70,9 @@ def generate_datasets_with_one_dimensionality_changing(count,shape_dimensionalit
         shapes = create_random_shape(shape_dimensionality,range_min,range_max)
         for device_params,left_count in zip(device_parame_array,counts):
             if i<left_count:
-                generate_dataset_with_one_dimensionality_changing(function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,device_parames=device_params,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,dataset_config_name=dataset_config_name,show_print=show_print,isModule=isModule)
+                generate_dataset_with_one_dimensionality_changing(function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,device_parames=device_params,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,prefix_path=prefix_path,device_name=device_name,dataset_config_name=dataset_config_name,show_print=show_print,isModule=isModule)
 
-def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_shapes,max_shapes,sampling,force_shape_relation=None,dtype="float32",device_parames={"target": "llvm", "device": tvm.cpu(0),"type":-1},cycle_times=200,min_repeat_ms=500,opt_level=0,fold_path="create_dataset/datasets/",device_name="dell04",dataset_config_name="dataset.json",show_print=True,isModule=False) ->None:
+def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_shapes,max_shapes,sampling,force_shape_relation=None,dtype="float32",device_parames={"target": "llvm", "device": tvm.cpu(0),"type":-1},cycle_times=200,min_repeat_ms=500,opt_level=0,prefix_path="",fold_path="datasets/",device_name="dell04",dataset_config_name="dataset.json",show_print=True,isModule=False) ->None:
     '''
     save the op-time(ms) to disk-file when only a single dimensionality of one input-shape changing.
 
@@ -88,7 +89,8 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     * min_repeat_ms: if time(op)*cycle_times < min_repeat_ms，test will go on until fit.
     * cycle_times: when test single-op, minimum test times
     * min_repeat_ms: if time(op)*cycle_times < min_repeat_ms，test will go on until fit.
-    * fold_path: the save root fold for datasets
+    * prefix_path: gives the path to <fold_path> in special device.
+    * fold_path: the save root fold for datasets, gives the record root path.
     * device_name: the alias-name of device where you test op.
     * dataset_config_name: the dataset config name, which record and organize the whole dataset. It's a good choice to keep the default value if you are not sure.
     * show_print: show progress-information in terminal or not when generate the datasets.
@@ -110,7 +112,12 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     shape_dimensionality_str = str((get_dimensionality(shapes),(x,y)))
     real_shape = generate_shape(shapes,x,y,-1,force_shape_relation=force_shape_relation)
 
-    data_savepath = os.path.join(ensure_dir_exist(os.path.join(fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str))),str(real_shape)+".txt")
+    data_savepath = ""
+    data_recordpath = os.path.join(ensure_dir_exist(os.path.join(fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str))),str(real_shape)+".txt")
+    if prefix_path!="":
+        data_savepath = os.path.join(ensure_dir_exist(os.path.join(prefix_path,fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str))),str(real_shape)+".txt")
+    else:
+        data_savepath = data_recordpath
 
     if os.path.exists(data_savepath) and show_print:
         print("exists and skip: %s"%(data_savepath))
@@ -131,7 +138,7 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
         print("create:\n--op: %s\n--device: %s\n--shape: %s\n--file: %s\n\n"%(function_dict["name"].lower(),translate_device_type(device_parames["type"]),str(real_shape),data_savepath))
 
     # 构建数据集存档信息
-    log_file=os.path.join(fold_path,dataset_config_name)
+    log_file=os.path.join(prefix_path,fold_path,dataset_config_name)
 
     log_dict = {"count":0}
     if os.path.exists(log_file):
@@ -164,7 +171,7 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
         log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)] = {}
         
     # 记录数据集文件名，shape形状，开始训练时间  
-    log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["file_path"]=data_savepath
+    log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["file_path"] = data_recordpath
     log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["changed_shape"]=shape_dimensionality_str
     log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["shapes"]=str(real_shape)
     log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["time"]= time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))

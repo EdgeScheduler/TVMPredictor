@@ -1,3 +1,4 @@
+from sys import prefix
 from create_dataset.common import Device
 
 min_shapes=1
@@ -7,7 +8,8 @@ dtype="float32"
 cycle_times=20
 min_repeat_ms=30
 opt_level=0
-fold_path="create_dataset/datasets/"
+prefix_path="Datasets/"
+fold_path="TVM/datasets/"
 show_print=True
 
 device_name="test"

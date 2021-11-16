@@ -7,10 +7,11 @@ dtype="float32"
 cycle_times=1
 min_repeat_ms=10
 opt_level=0
-fold_path="create_dataset/datasets_models/"
+prefix_path="Datasets/"
+fold_path="TVM/datasets_models/"
 show_print=True
 isModel = True
-device_name="dell01"
+device_name="dell04"
 config_name = "dataset_"+device_name+".json"
 
 # device_parame_array = [Device.device_params_CPU,Device.device_params_GPU0]

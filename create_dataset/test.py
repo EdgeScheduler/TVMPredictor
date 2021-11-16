@@ -1,3 +1,4 @@
+from sys import prefix
 from create_dataset.common import generate_dataset_with_one_dimensionality_changing,Device
 import tvm.relay as relay
 
@@ -31,10 +32,11 @@ dtype="float32"
 cycle_times=20
 min_repeat_ms=30
 opt_level=0
-fold_path="create_dataset/datasets/"
+prefix_path="create_dataset/"
+fold_path="datasets/"
 device_name="dell04"
 show_print=True
 # log_file默认值.
 
-generate_dataset_with_one_dimensionality_changing(device_parames=Device.device_params_CPU,function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print)
-generate_dataset_with_one_dimensionality_changing(device_parames=Device.device_params_GPU0,function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,fold_path=fold_path,device_name=device_name,show_print=show_print)
+generate_dataset_with_one_dimensionality_changing(device_parames=Device.device_params_CPU,function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,prefix_path=prefix_path,fold_path=fold_path,device_name=device_name,show_print=show_print)
+generate_dataset_with_one_dimensionality_changing(device_parames=Device.device_params_GPU0,function_dict = function_dict,shapes=shapes,min_shapes=min_shapes,max_shapes=max_shapes,sampling=sampling,force_shape_relation=force_shape_relation,dtype=dtype,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,prefix_path=prefix_path,fold_path=fold_path,device_name=device_name,show_print=show_print)
