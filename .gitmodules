@@ -1,3 +1,6 @@
 [submodule "analyzes"]
 	path = analyzes
 	url = git@fish.github.com:dos-lab/TVM-Analyze.git
+[submodule "Datasets"]
+	path = Datasets
+	url = git@fish.github.com:dos-lab/Datasets.git
