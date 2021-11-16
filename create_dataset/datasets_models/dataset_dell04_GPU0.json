@@ -1,7 +1,7 @@
 {
-    "count": 145,
+    "count": 192,
     "dell04": {
-        "count": 145,
+        "count": 192,
         "resnet3d-50": {
             "0": {
                 "((4,), (0, 0))": {
@@ -389,11 +389,293 @@
                         "shapes": "((-1, 3, 16, 96),)",
                         "time": "2021-11-13 11:02:33"
                     },
+                    "((-1, 3, 160, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 112),).txt",
+                        "shapes": "((-1, 3, 160, 112),)",
+                        "time": "2021-11-15 05:38:22"
+                    },
+                    "((-1, 3, 160, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 128),).txt",
+                        "shapes": "((-1, 3, 160, 128),)",
+                        "time": "2021-11-15 05:55:56"
+                    },
+                    "((-1, 3, 160, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 144),).txt",
+                        "shapes": "((-1, 3, 160, 144),)",
+                        "time": "2021-11-15 06:19:16"
+                    },
                     "((-1, 3, 160, 16),)": {
                         "changed_shape": "((4,), (0, 0))",
                         "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 16),).txt",
                         "shapes": "((-1, 3, 160, 16),)",
                         "time": "2021-11-15 03:29:18"
+                    },
+                    "((-1, 3, 160, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 160),).txt",
+                        "shapes": "((-1, 3, 160, 160),)",
+                        "time": "2021-11-15 06:42:00"
+                    },
+                    "((-1, 3, 160, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 176),).txt",
+                        "shapes": "((-1, 3, 160, 176),)",
+                        "time": "2021-11-15 07:04:22"
+                    },
+                    "((-1, 3, 160, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 192),).txt",
+                        "shapes": "((-1, 3, 160, 192),)",
+                        "time": "2021-11-15 07:22:31"
+                    },
+                    "((-1, 3, 160, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 208),).txt",
+                        "shapes": "((-1, 3, 160, 208),)",
+                        "time": "2021-11-15 07:45:41"
+                    },
+                    "((-1, 3, 160, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 224),).txt",
+                        "shapes": "((-1, 3, 160, 224),)",
+                        "time": "2021-11-15 08:08:35"
+                    },
+                    "((-1, 3, 160, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 240),).txt",
+                        "shapes": "((-1, 3, 160, 240),)",
+                        "time": "2021-11-15 08:30:42"
+                    },
+                    "((-1, 3, 160, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 256),).txt",
+                        "shapes": "((-1, 3, 160, 256),)",
+                        "time": "2021-11-15 08:49:43"
+                    },
+                    "((-1, 3, 160, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 32),).txt",
+                        "shapes": "((-1, 3, 160, 32),)",
+                        "time": "2021-11-15 03:50:56"
+                    },
+                    "((-1, 3, 160, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 48),).txt",
+                        "shapes": "((-1, 3, 160, 48),)",
+                        "time": "2021-11-15 04:12:41"
+                    },
+                    "((-1, 3, 160, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 64),).txt",
+                        "shapes": "((-1, 3, 160, 64),)",
+                        "time": "2021-11-15 04:29:21"
+                    },
+                    "((-1, 3, 160, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 80),).txt",
+                        "shapes": "((-1, 3, 160, 80),)",
+                        "time": "2021-11-15 04:51:34"
+                    },
+                    "((-1, 3, 160, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 160, 96),).txt",
+                        "shapes": "((-1, 3, 160, 96),)",
+                        "time": "2021-11-15 05:15:33"
+                    },
+                    "((-1, 3, 176, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 112),).txt",
+                        "shapes": "((-1, 3, 176, 112),)",
+                        "time": "2021-11-15 11:18:05"
+                    },
+                    "((-1, 3, 176, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 128),).txt",
+                        "shapes": "((-1, 3, 176, 128),)",
+                        "time": "2021-11-15 11:35:42"
+                    },
+                    "((-1, 3, 176, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 144),).txt",
+                        "shapes": "((-1, 3, 176, 144),)",
+                        "time": "2021-11-15 11:56:50"
+                    },
+                    "((-1, 3, 176, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 16),).txt",
+                        "shapes": "((-1, 3, 176, 16),)",
+                        "time": "2021-11-15 09:13:37"
+                    },
+                    "((-1, 3, 176, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 160),).txt",
+                        "shapes": "((-1, 3, 176, 160),)",
+                        "time": "2021-11-15 12:17:50"
+                    },
+                    "((-1, 3, 176, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 176),).txt",
+                        "shapes": "((-1, 3, 176, 176),)",
+                        "time": "2021-11-15 12:40:34"
+                    },
+                    "((-1, 3, 176, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 192),).txt",
+                        "shapes": "((-1, 3, 176, 192),)",
+                        "time": "2021-11-15 13:01:38"
+                    },
+                    "((-1, 3, 176, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 208),).txt",
+                        "shapes": "((-1, 3, 176, 208),)",
+                        "time": "2021-11-15 13:25:46"
+                    },
+                    "((-1, 3, 176, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 224),).txt",
+                        "shapes": "((-1, 3, 176, 224),)",
+                        "time": "2021-11-15 13:47:31"
+                    },
+                    "((-1, 3, 176, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 240),).txt",
+                        "shapes": "((-1, 3, 176, 240),)",
+                        "time": "2021-11-15 14:10:22"
+                    },
+                    "((-1, 3, 176, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 256),).txt",
+                        "shapes": "((-1, 3, 176, 256),)",
+                        "time": "2021-11-15 14:28:50"
+                    },
+                    "((-1, 3, 176, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 32),).txt",
+                        "shapes": "((-1, 3, 176, 32),)",
+                        "time": "2021-11-15 09:35:15"
+                    },
+                    "((-1, 3, 176, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 48),).txt",
+                        "shapes": "((-1, 3, 176, 48),)",
+                        "time": "2021-11-15 09:57:01"
+                    },
+                    "((-1, 3, 176, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 64),).txt",
+                        "shapes": "((-1, 3, 176, 64),)",
+                        "time": "2021-11-15 10:14:49"
+                    },
+                    "((-1, 3, 176, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 80),).txt",
+                        "shapes": "((-1, 3, 176, 80),)",
+                        "time": "2021-11-15 10:35:54"
+                    },
+                    "((-1, 3, 176, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 176, 96),).txt",
+                        "shapes": "((-1, 3, 176, 96),)",
+                        "time": "2021-11-15 10:56:56"
+                    },
+                    "((-1, 3, 192, 112),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 112),).txt",
+                        "shapes": "((-1, 3, 192, 112),)",
+                        "time": "2021-11-15 16:38:01"
+                    },
+                    "((-1, 3, 192, 128),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 128),).txt",
+                        "shapes": "((-1, 3, 192, 128),)",
+                        "time": "2021-11-15 16:56:38"
+                    },
+                    "((-1, 3, 192, 144),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 144),).txt",
+                        "shapes": "((-1, 3, 192, 144),)",
+                        "time": "2021-11-15 17:16:34"
+                    },
+                    "((-1, 3, 192, 16),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 16),).txt",
+                        "shapes": "((-1, 3, 192, 16),)",
+                        "time": "2021-11-15 14:46:50"
+                    },
+                    "((-1, 3, 192, 160),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 160),).txt",
+                        "shapes": "((-1, 3, 192, 160),)",
+                        "time": "2021-11-15 17:36:32"
+                    },
+                    "((-1, 3, 192, 176),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 176),).txt",
+                        "shapes": "((-1, 3, 192, 176),)",
+                        "time": "2021-11-15 17:56:19"
+                    },
+                    "((-1, 3, 192, 192),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 192),).txt",
+                        "shapes": "((-1, 3, 192, 192),)",
+                        "time": "2021-11-15 18:15:43"
+                    },
+                    "((-1, 3, 192, 208),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 208),).txt",
+                        "shapes": "((-1, 3, 192, 208),)",
+                        "time": "2021-11-15 18:35:19"
+                    },
+                    "((-1, 3, 192, 224),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 224),).txt",
+                        "shapes": "((-1, 3, 192, 224),)",
+                        "time": "2021-11-15 18:54:44"
+                    },
+                    "((-1, 3, 192, 240),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 240),).txt",
+                        "shapes": "((-1, 3, 192, 240),)",
+                        "time": "2021-11-15 19:14:01"
+                    },
+                    "((-1, 3, 192, 256),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 256),).txt",
+                        "shapes": "((-1, 3, 192, 256),)",
+                        "time": "2021-11-15 19:32:11"
+                    },
+                    "((-1, 3, 192, 32),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 32),).txt",
+                        "shapes": "((-1, 3, 192, 32),)",
+                        "time": "2021-11-15 15:04:37"
+                    },
+                    "((-1, 3, 192, 48),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 48),).txt",
+                        "shapes": "((-1, 3, 192, 48),)",
+                        "time": "2021-11-15 15:22:58"
+                    },
+                    "((-1, 3, 192, 64),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 64),).txt",
+                        "shapes": "((-1, 3, 192, 64),)",
+                        "time": "2021-11-15 15:40:26"
+                    },
+                    "((-1, 3, 192, 80),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 80),).txt",
+                        "shapes": "((-1, 3, 192, 80),)",
+                        "time": "2021-11-15 15:59:00"
+                    },
+                    "((-1, 3, 192, 96),)": {
+                        "changed_shape": "((4,), (0, 0))",
+                        "file_path": "create_dataset/datasets_models/dell04/resnet3d-50/0/((4,), (0, 0))/((-1, 3, 192, 96),).txt",
+                        "shapes": "((-1, 3, 192, 96),)",
+                        "time": "2021-11-15 16:17:18"
                     },
                     "((-1, 3, 32, 112),)": {
                         "changed_shape": "((4,), (0, 0))",
@@ -875,11 +1157,11 @@
                         "shapes": "((-1, 3, 96, 96),)",
                         "time": "2021-11-14 08:12:17"
                     },
-                    "count": 145
+                    "count": 192
                 },
-                "count": 145
+                "count": 192
             },
-            "count": 145
+            "count": 192
         }
     }
 }
