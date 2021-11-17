@@ -25,10 +25,10 @@ force_shape_relation=(None,)
 shapes_dimensionality=((4,),(0,0))
 
 count = 1
-range_min = [[-1,3,16,16],]
+range_min = [[-1,3,32,32],]
 range_max = [[-1,3,256,256],]
-for a in uniform_sampling(16,256,0.0625):
-    for b in uniform_sampling(16,256,0.0625):
+for a in uniform_sampling(32,256,0.0625):
+    for b in uniform_sampling(32,256,0.0625):
         range_min[0][2]=a
         range_max[0][2]=a
         range_min[0][3]=b

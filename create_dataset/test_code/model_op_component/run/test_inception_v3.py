@@ -3,6 +3,10 @@ from create_dataset.common import generate_datasets_with_one_dimensionality_chan
 import tvm.relay as relay
 import create_dataset.test_code.model_test_code.config.common_args as common_args
 
+def model_component(model_name:str, input_shape:tuple, dtype="float32")->dict:
+    # 待实现
+    return {}
+
 def calculate_model(dshape,dtype="float32"):
     '''
     test add-op in one kind of shape.
@@ -15,19 +19,19 @@ def calculate_model(dshape,dtype="float32"):
     * CPU: target = "llvm", device=tvm.cpu(0)
     '''
 
-    return get_network("squeezenet_v1.1", input_shape=dshape[0], dtype=dtype)[0]
+    return model_component("inception_v3", input_shape=dshape[0], dtype=dtype)
 
 # 定义参数
-function_dict = {"func":calculate_model, "name": "squeezenet_v1.1"}
+function_dict = {"func":calculate_model, "name": "inception_v3"}
 
 force_shape_relation=(None,)
 shapes_dimensionality=((4,),(0,0))
 
 count = 1
-range_min = [[-1,3,32,32],]
+range_min = [[-1,3,16,16],]
 range_max = [[-1,3,256,256],]
-for a in uniform_sampling(32,256,0.0625):
-    for b in uniform_sampling(32,256,0.0625):
+for a in uniform_sampling(16,256,0.0625):
+    for b in uniform_sampling(16,256,0.0625):
         range_min[0][2]=a
         range_max[0][2]=a
         range_min[0][3]=b
