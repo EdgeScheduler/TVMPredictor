@@ -14,7 +14,6 @@ import time
 import sys
 import csv
 from cnn_workload_generator import get_network, compile_without_log, create_graph_executor_on_single_device, evaluate_time_with_tvm_evaluator, create_operator_executor_on_single_device
-from op_statistics import put_op_time
 import json
 
 key_op_list = {}
