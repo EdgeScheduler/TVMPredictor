@@ -1,8 +1,7 @@
 import os
 import json
 import ast
-
-from onnx import save_model
+from create_dataset.test_code.model_op_component.operation_statistics.analyze_component import analyze_component
 
 class SaveInfo:
     fold_path="Dataset/TVM/models_component/"
