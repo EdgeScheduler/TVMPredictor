@@ -113,7 +113,7 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     real_shape = generate_shape(shapes,x,y,-1,force_shape_relation=force_shape_relation)
 
     data_savepath = ""
-    data_recordpath = os.path.join(ensure_dir_exist(os.path.join(fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str))),str(real_shape)+".txt")
+    data_recordpath = os.path.join(fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str),str(real_shape)+".txt")
     if prefix_path!="":
         data_savepath = os.path.join(ensure_dir_exist(os.path.join(prefix_path,fold_path,device_name,function_dict["name"],str(device_parames["type"]),str(shape_dimensionality_str))),str(real_shape)+".txt")
     else:
