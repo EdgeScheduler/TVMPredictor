@@ -1,5 +1,4 @@
 import numpy as np
-
 import tvm
 from tvm import relay
 import tvm.relay.testing

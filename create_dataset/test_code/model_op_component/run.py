@@ -1,16 +1,17 @@
 import os
 import json
 import ast
-from create_dataset.test_code.model_op_component.operation_statistics.analyze_component import analyze_component
+from TVMProfiler.model_src.analyze_component import analyze_component
+import traceback
 
 class SaveInfo:
-    fold_path="Dataset/TVM/models_component/"
+    fold_path="TEST/TVM/models_component/"
     config_name = "dataset.json"
     auto_skip = True
 
 class ModelsRuntimeInfo:
-    prefex_fold = "Dataset"
-    fold_path="TVM/models_component/"
+    prefex_fold = "Datasets/"
+    fold_path="TVM/datasets_model/"
     config_name = "dataset.json"
 
 def add_model_component(model_name,shape,batch_size,component_dict,dataset_name="dataset.json",fold_path="",auto_skip=True)->dict:
@@ -37,9 +38,9 @@ def add_model_component(model_name,shape,batch_size,component_dict,dataset_name=
 
     return datasets
 
-def analyze_models_by_runtime_json(deal_function):
+def analyze_models_by_runtime_json(deal_function,object_names=[]):
     runtime_config = {}
-    runtime_config_json_path= os.path.json(ModelsRuntimeInfo.prefex_fold,ModelsRuntimeInfo.fold_path,ModelsRuntimeInfo.config_name)
+    runtime_config_json_path= os.path.join(ModelsRuntimeInfo.prefex_fold,ModelsRuntimeInfo.fold_path,ModelsRuntimeInfo.config_name)
     if not os.path.exists(runtime_config_json_path):
         print(runtime_config_json_path +" is not found.")
         return False
@@ -55,6 +56,10 @@ def analyze_models_by_runtime_json(deal_function):
         for object_name in runtime_config[device_name].keys():
             if object_name=="count":
                 continue
+
+            if len(object_names)>0:
+                if object_name not in object_names:
+                    continue
 
             for device_id in runtime_config[device_name][object_name].keys():
                 if device_id=="count":
@@ -76,25 +81,25 @@ def analyze_models_by_runtime_json(deal_function):
                                 # runtime = float(line.split(",")[1])
 
                                 dshapes = ast.literal_eval(shape.replace("-1",str(batch_size)))
-                                flag,model_component_dict = deal_function(object_name,dshapes)
+                                flag,model_component_dict,error_info = deal_function(object_name,dshapes)
                                 if not flag:
-                                    print("analyze model component error.")
+                                    # print("analyze model component error: ",error_info)
                                     return False
 
-                                add_model_component(model_name=object_name,batch_size=batch_size,component_dict=model_component_dict,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,auto_skip=SaveInfo.auto_skip)
+                                add_model_component(model_name=object_name,shape=shape,batch_size=batch_size,component_dict=model_component_dict,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,auto_skip=SaveInfo.auto_skip)
 
                                 line = f.readline()
     return True
 
 # 待实现
 def analyze_model_component(model_name,dshape,dtype="float32"):
-    return True,{}
+    return analyze_component(model_name,dshape)
 
 def main():
-    if analyze_models_by_runtime_json(None):
+    if analyze_models_by_runtime_json(analyze_model_component,object_names=["inception_v3","mobilenet","resnet-50","resnet3d-50","squeezenet_v1.1"]):
         print("finish all works.")
     else:
-        print("some errors occurr.")
+        print("break off...")
 
 if __name__ == "__main__":
     main()
