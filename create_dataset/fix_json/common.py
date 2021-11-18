@@ -102,11 +102,14 @@ def merge_dict(dict_1,dict_2):
         return
 
     for key in dict_2.keys():
-        if key not in dict_1.keys():
-            dict_1[key] = dict_2[key]
-            dict_1["count"]+=dict_2[key]["count"]
-        elif key=="count":
+        if key=="count":
             continue
+        elif key not in dict_1.keys():
+            dict_1[key] = dict_2[key]
+            if "file_path" in dict_2[key].keys():
+                dict_1["count"]+=1
+            else:
+                dict_1["count"]+=dict_2[key]["count"]
         else:
             merge_dict(dict_1[key],dict_2[key])
         
