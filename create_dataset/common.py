@@ -107,6 +107,9 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     ---------
     no return value.
     '''
+
+    file_exist=False
+
     # 生成不冲突的数据集路径
     x,y = search_changing_shape(shapes)
     shape_dimensionality_str = str((get_dimensionality(shapes),(x,y)))
@@ -119,22 +122,24 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
     else:
         data_savepath = data_recordpath
 
-    if os.path.exists(data_savepath) and show_print:
-        print("exists and skip: %s"%(data_savepath))
-        return
-
+    # if os.path.exists(data_savepath) and show_print:
+    #     print("exists and skip: %s"%(data_savepath))
+    #     return
     dshape = uniform_sampling(min_shapes,max_shapes,sampling)
-    f_dataset = open(data_savepath, "a")
+    if not os.path.exists(data_savepath):
+        f_dataset = open(data_savepath, "w")
 
-    # 写入执行时间
-    for i in range(len(dshape)):
-        runtime = test_op_time(function_dict["func"](generate_shape(shapes,x,y,dshape[i],force_shape_relation=force_shape_relation),dtype=dtype),device_parames=device_parames,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,isModule=isModule)
-        f_dataset.write(str(dshape[i])+","+str(runtime*1000)+"\n")
-        if isModule and show_print:
-            print(str(dshape[i])+","+str(runtime*1000))
-    f_dataset.close()
+        # 写入执行时间
+        for i in range(len(dshape)):
+            runtime = test_op_time(function_dict["func"](generate_shape(shapes,x,y,dshape[i],force_shape_relation=force_shape_relation),dtype=dtype),device_parames=device_parames,cycle_times=cycle_times,min_repeat_ms=min_repeat_ms,opt_level=opt_level,isModule=isModule)
+            f_dataset.write(str(dshape[i])+","+str(runtime*1000)+"\n")
+            if isModule and show_print:
+                print(str(dshape[i])+","+str(runtime*1000))
+        f_dataset.close()
+    else:
+        file_exist=True
 
-    if show_print:
+    if show_print and not file_exist:
         print("create:\n--op: %s\n--device: %s\n--shape: %s\n--file: %s\n\n"%(function_dict["name"].lower(),translate_device_type(device_parames["type"]),str(real_shape),data_savepath))
 
     # 构建数据集存档信息
@@ -167,9 +172,16 @@ def generate_dataset_with_one_dimensionality_changing(function_dict,shapes,min_s
         log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str]["count"] = 0
 
     # 确保 输入shapes-->keys
-    if str(real_shape) not in log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str].keys():
+    if str(real_shape) in log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str].keys():
+        # json记录已经存在
+        if show_print and file_exist:
+            print("skip exist file to json config: ",data_savepath)
+        return
+    else:
+        if show_print and file_exist:
+            print("add exist file to json config: ",data_savepath)
         log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)] = {}
-        
+
     # 记录数据集文件名，shape形状，开始训练时间  
     log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["file_path"] = data_recordpath
     log_dict[device_name.lower()][function_dict["name"].lower()][str(device_parames["type"])][shape_dimensionality_str][str(real_shape)]["changed_shape"]=shape_dimensionality_str
