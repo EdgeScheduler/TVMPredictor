@@ -23,15 +23,11 @@ function_dict = {"func":calculate_model, "name": "resnet3d-50"}
 force_shape_relation=(None,)
 shapes_dimensionality=((4,),(0,0))
 
-count = 1
-range_min = [[-1,3,16,16],]
-range_max = [[-1,3,256,256],]
+shapes = [[-1,3,0,0],]
 for a in uniform_sampling(16,256,0.0625):
     for b in uniform_sampling(16,256,0.0625):
-        range_min[0][2]=a
-        range_max[0][2]=a
-        range_min[0][3]=b
-        range_max[0][3]=b
+        shapes[0][2]=a
+        shapes[0][3]=b
 
-        generate_datasets_with_one_dimensionality_changing(device_parame_array=common_args.device_parame_array,count=count,shape_dimensionality=shapes_dimensionality,range_min=range_min,range_max=range_max,function_dict = function_dict,min_shapes=common_args.min_shapes,max_shapes=common_args.max_shapes,sampling=common_args.sampling,force_shape_relation=force_shape_relation,dtype=common_args.dtype,cycle_times=common_args.cycle_times,min_repeat_ms=common_args.min_repeat_ms,opt_level=common_args.opt_level,prefix_path=common_args.prefix_path,fold_path=common_args.fold_path,device_name=common_args.device_name,show_print=common_args.show_print,isModule=common_args.isModel,dataset_config_name=common_args.config_name)
-        count+=1
+        for device_parame in common_args.device_parame_array:
+            generate_dataset_with_one_dimensionality_changing(function_dict=function_dict,shapes=shapes,min_shapes=common_args.min_shapes,max_shapes=common_args.max_shapes,sampling=common_args.sampling,force_shape_relation=force_shape_relation,device_parames=device_parame,dtype=common_args.dtype,cycle_times=common_args.cycle_times,min_repeat_ms=common_args.min_repeat_ms,opt_level=common_args.opt_level,prefix_path=common_args.prefix_path,fold_path=common_args.fold_path,device_name=common_args.device_name,dataset_config_name=common_args.config_name,show_print=common_args.show_print)

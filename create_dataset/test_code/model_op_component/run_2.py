@@ -6,7 +6,7 @@ from TVMProfiler.model_src.analyze_componnet import get_op_info
 import tvm
 import traceback
 import multiprocessing
-from multiprocessing import Pool
+from multiprocessing import Lock, Pool
 class SaveInfo:
     fold_path="Datasets/TVM/models_component/"
     config_name = "dataset.json"
@@ -21,7 +21,7 @@ def call_back(component_dict):
     return component_dict
 
 def error_call_back(obj):
-    print("-----error-----, pid=",os.getgid())
+    print("---error: ",str(obj))
     traceback.print_exc()
     return {"error",str(obj)}
 
@@ -75,8 +75,12 @@ def exist_in_dataset(model_name,shape,batch_size,dataset_name="dataset.json",pre
 
     return True
 
+def init_lock(lk):
+    global lock
+    lock = lk
+
 def analyze_models_by_runtime_json(deal_function,object_names=[],prefix_dataset_name="",print_info=True):
-    global TVM_INIT
+    lock = multiprocessing.Lock()
 
     runtime_config = {}
     runtime_config_json_path= os.path.join(ModelsRuntimeInfo.prefix_fold,ModelsRuntimeInfo.fold_path,ModelsRuntimeInfo.config_name)
@@ -108,65 +112,83 @@ def analyze_models_by_runtime_json(deal_function,object_names=[],prefix_dataset_
                     if shapes_dimensionality=="count":
                         continue
                     
+                    pool = Pool(processes=multiprocessing.cpu_count(),initializer=init_lock, initargs=(lock,))
                     for shape in runtime_config[device_name][object_name][device_id][shapes_dimensionality].keys():
                         if shape=="count":
                             continue
-
-                        if print_info:
-                            print("\n")
-                            print("original device name",device_name)
-                            print("original device id",device_id)
-                            print("object name: ",object_name)
-                            print("shape", shape)
-
-                        run_values=[]
-                        cores = multiprocessing.cpu_count()
-                        # pool = Pool(processes=cores)
-                        pool = None
-
-                        deal_count=0
-
-                        value = runtime_config[device_name][object_name][device_id][shapes_dimensionality][shape]
-                        with open(os.path.join(ModelsRuntimeInfo.prefix_fold, value["file_path"]),"r") as f:
-                            line = f.readline()
-                            while line is not None and len(line)>0 :
-                                batch_size = int(line.split(",")[0])
-                                dshapes = ast.literal_eval(shape.replace("-1",str(batch_size)))
-
-                                if not exist_in_dataset(model_name=object_name,shape=shape,batch_size=batch_size,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,prefix_dataset_name=prefix_dataset_name):
-                                    if deal_count==0:
-                                        pool = Pool(processes=cores)
-                                    run_process=pool.apply_async(func=analyze_model_component,args=(object_name,dshapes,batch_size,print_info,),callback=call_back,error_callback=error_call_back)
-                                    # run_process=pool.apply(func=analyze_model_component,args=(object_name,dshapes,batch_size,print_info,))
-                                    run_values.append((batch_size,run_process))    
-                                    deal_count+=1
-
-                                if deal_count==20:
-                                    pool.close() 
-                                    pool.join()
-                                    pool = None
-                                    deal_count = 0
-
-                                # break   ##
-
-                                line = f.readline()
-
-                        if deal_count>0 and pool is not None:   
-                            pool.close()        # 使其不再接受新的任务
-                            pool.join()         # 必须在close/terminate后面执行，等待所有子进程结束
-
-                        if print_info:
-                            print("finish calculate all batch size.")
-
-                        for value in run_values:
-                            # pass  ##
-                            add_model_component(model_name=object_name,shape=shape,batch_size=value[0],component_dict=value[1].get(),prefix_dataset_name=prefix_dataset_name,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,auto_skip=SaveInfo.auto_skip)
-
-                        if print_info:    
-                            print("finish record.")
-                        
-                        # return True ##
+                        pool.apply_async(func=run_single_shape,args=(runtime_config,prefix_dataset_name,device_name,object_name,device_id,shapes_dimensionality,shape,True,),error_callback=error_call_back)
+                    pool.close()
+                    pool.join()
     return True
+
+def run_single_shape_async(runtime_config,prefix_dataset_name,device_name,object_name,device_id,shapes_dimensionality,shape,lock,print_info=True,process_count=1):
+    if print_info:
+        print("\n")
+        print("original device name",device_name)
+        print("original device id",device_id)
+        print("object name: ",object_name)
+        print("shape", shape)
+
+    run_values=[]
+    pool = Pool(processes=process_count)
+
+    value = runtime_config[device_name][object_name][device_id][shapes_dimensionality][shape]
+    with open(os.path.join(ModelsRuntimeInfo.prefix_fold, value["file_path"]),"r") as f:
+        line = f.readline()
+        while line is not None and len(line)>0 :
+            batch_size = int(line.split(",")[0])
+
+            dshapes = ast.literal_eval(shape.replace("-1",str(batch_size)))
+
+            if not exist_in_dataset(model_name=object_name,shape=shape,batch_size=batch_size,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,prefix_dataset_name=prefix_dataset_name):
+                run_process=pool.apply_async(func=analyze_model_component,args=(object_name,dshapes,batch_size,print_info,),callback=call_back,error_callback=error_call_back)
+                run_values.append((batch_size,run_process))                                   
+            line = f.readline()
+
+    pool.close()        # 使其不再接受新的任务
+    pool.join()         # 必须在close/terminate后面执行，等待所有子进程结束
+
+    if print_info:
+        print("finish calculate all batch size for shape=%s."%shape)
+
+    with lock: 
+        for value in run_values:
+            add_model_component(model_name=object_name,shape=shape,batch_size=value[0],component_dict=value[1].get(),prefix_dataset_name=prefix_dataset_name,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,auto_skip=SaveInfo.auto_skip)
+
+    if print_info:    
+        print("finish record for shape=%s."%shape)
+
+def run_single_shape(runtime_config,prefix_dataset_name,device_name,object_name,device_id,shapes_dimensionality,shape,lock,print_info=True):
+    if print_info:
+        print("\n")
+        print("original device name",device_name)
+        print("original device id",device_id)
+        print("object name: ",object_name)
+        print("shape", shape)
+
+    run_values=[]
+
+    value = runtime_config[device_name][object_name][device_id][shapes_dimensionality][shape]
+    with open(os.path.join(ModelsRuntimeInfo.prefix_fold, value["file_path"]),"r") as f:
+        line = f.readline()
+        while line is not None and len(line)>0 :
+            batch_size = int(line.split(",")[0])
+
+            dshapes = ast.literal_eval(shape.replace("-1",str(batch_size)))
+
+            if not exist_in_dataset(model_name=object_name,shape=shape,batch_size=batch_size,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,prefix_dataset_name=prefix_dataset_name):
+                run_values.append((batch_size,analyze_model_component(object_name,dshapes,batch_size,print_info)))                                   
+            line = f.readline()
+
+    if print_info:
+        print("finish calculate all batch size for shape=%s."%shape)
+
+    with lock: 
+        for value in run_values:
+            add_model_component(model_name=object_name,shape=shape,batch_size=value[0],component_dict=value[1],prefix_dataset_name=prefix_dataset_name,dataset_name=SaveInfo.config_name,fold_path=SaveInfo.fold_path,auto_skip=SaveInfo.auto_skip)
+
+    if print_info:    
+        print("finish record for shape=%s."%shape)
 
 # 待实现
 def analyze_model_component(model_name,dshape,batch_size,print_info=True,dtype="float32"):
@@ -194,5 +216,7 @@ def main():
         print("break off...")
 
 if __name__ == "__main__":
-    main()
-
+    try:
+        main()
+    except:
+        traceback.print_exc()
