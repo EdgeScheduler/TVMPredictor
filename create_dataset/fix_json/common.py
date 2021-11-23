@@ -38,7 +38,7 @@ def fix_dict_count(datas):
     datas["count"] = count_total
     return datas
 
-def delete_unexist_config(log_file="Datasets/TVM/datasets/dataset.json") ->None:
+def delete_unexist_config(log_file="Datasets/TVM/datasets/dataset.json",prifex_fold="") ->None:
     '''
     delete un-exist dataset-items from json config
     '''
@@ -66,7 +66,7 @@ def delete_unexist_config(log_file="Datasets/TVM/datasets/dataset.json") ->None:
                     for shapes_str,value in shape_dimensionality_dict.items():
                         if shapes_str=="count":
                             continue
-                        if not os.path.exists(value["file_path"]):
+                        if not os.path.exists(os.path.join(prifex_fold, value["file_path"])):
                             del result[device_name][function_name][device_type][shape_dimensionality][shapes_str]           # 删除对应条目
 
                             result[device_name][function_name][device_type][shape_dimensionality]["count"]-=1
