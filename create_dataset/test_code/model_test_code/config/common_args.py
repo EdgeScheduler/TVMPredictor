@@ -11,11 +11,7 @@ prefix_path="Datasets/"
 fold_path="TVM/datasets_models/"
 show_print=True
 isModel = True
-<<<<<<< HEAD
-device_name="dellh01"
-=======
-device_name="dell01"
->>>>>>> 125eaae17ee162513a6501db56b7007871afba2e
+device_name="dell04"
 config_name = "dataset_"+device_name+".json"
 
 # device_parame_array = [Device.device_params_CPU,Device.device_params_GPU0]
