@@ -81,6 +81,12 @@ def analyze_models_by_runtime_json(deal_function,object_names=[],prefix_dataset_
 
                     pool.close()
                     pool.join()
+
+                    # 合并
+                    if os.system("./home/yutian/TVMPredictor/Datasets/TVM/models_component/merge.sh")==0:
+                        print("json config merge finished.")
+                    else:
+                        print("fail to merge json config.")
     return True
 
 def run_single_shape(pre_prefix_config_name,device_name,object_name,device_id,shape,batch_sizes,fold_path,print_info=True):

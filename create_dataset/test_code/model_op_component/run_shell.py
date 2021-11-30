@@ -44,8 +44,10 @@ def run_in_terminal():
     # for batch_size in batch_sizes:
     for batch_size in [1,2]:
         dshape = ast.literal_eval(options_shape.replace("-1",str(batch_size)))
-        device = tvm.cpu(0)
-        target = "llvm"
+        # device = tvm.cpu(0)
+        # target = "llvm"
+        device = tvm.cuda(0)
+        target = "cuda"
 
         record_dict = {}
         if os.path.exists(json_path):

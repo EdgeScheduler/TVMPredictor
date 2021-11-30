@@ -222,7 +222,7 @@ def get_dimensionality(shape) ->tuple:
 
 def test_op_time(func, device_parames,cycle_times,min_repeat_ms,opt_level=0,isModule=False) -> float :
     '''
-    Get the run-time(us) of single op with a certain shape on certain device.
+    Get the run-time(s) of single op with a certain shape on certain device.
 
     Parameters
     ----------
