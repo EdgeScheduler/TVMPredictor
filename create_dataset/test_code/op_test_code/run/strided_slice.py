@@ -3,6 +3,21 @@ import tvm.relay as relay
 import create_dataset.test_code.op_test_code.config.common_args as common_args
 import random
 
+import os
+from optparse import OptionParser
+parser = OptionParser(usage="define device name")
+parser.add_option("-c", "--cpu_num", action="store",
+                  dest="cpu_num",
+                  default=False,
+                  type="int",
+                  help="cpu number")
+(options, args) = parser.parse_args()
+cpu_num = options.cpu_num
+os.environ["TVM_NUM_THREADS"] = str(cpu_num)
+
+common_args.fold_path = "TVM/datasets_huyi/" + str(cpu_num) +"/"
+
+
 def getRandomTuple(min_shape,max_shape):
     a = random.randint(min_shape,max_shape-1)
     b = random.randint(min_shape,max_shape-1)
