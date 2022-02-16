@@ -25,7 +25,7 @@ shapes_dimensionality=((2,2),(0,0))
 count = 1
 range_min = [[-1,1],[40,40]]
 range_max = [[-1,100],[60,60]]
-for a in uniform_sampling(1,100,0.1):
+for a in uniform_sampling(10,100,0.1):
         range_min[0][1]=a
         range_max[0][1]=a
 

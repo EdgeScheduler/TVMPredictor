@@ -14,7 +14,7 @@ function_dict = {"func":calculate_op, "name": "multiply"}
 
 # 限定shape
 count = 7
-force_shape_relation=(None,(lambda x,y,z:x, lambda x,y,z:y, lambda x,y,z:1))
+force_shape_relation=(None,(lambda x,y,z:x, lambda x,y,z:y, lambda x,y,z:z))
 shapes_dimensionality=((3,3),(0,0))
 # range_min = ((-1,1,1),(1,1,1))
 # range_max = ((-1,100,100),(100,100,100))
@@ -24,8 +24,8 @@ shapes_dimensionality=((3,3),(0,0))
 count = 1
 range_min = [[-1,1,1],[40,40,40]]
 range_max = [[-1,100,100],[60,60,60]]
-for a in uniform_sampling(1,100,0.1):
-    for b in uniform_sampling(1,100,0.1):
+for a in uniform_sampling(10,100,0.1):
+    for b in uniform_sampling(10,100,0.1):
         range_min[0][1]=a
         range_max[0][1]=a
         range_min[0][2]=b
